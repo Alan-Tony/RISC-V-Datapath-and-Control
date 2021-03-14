@@ -1,0 +1,8 @@
+{C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/MyInverter.v} {1 {vlog -work work {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/MyInverter.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module MyInverter
+
+Top level modules:
+	MyInverter
+
+} {} {}}

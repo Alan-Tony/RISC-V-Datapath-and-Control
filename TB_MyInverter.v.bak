@@ -1,0 +1,19 @@
+`include "MyInverter.v"
+
+module TB_MyInverter;
+  reg inp;
+  reg clk;
+  reg op;
+  
+  //MyInverter inv(inp, op);
+  
+  initial
+    begin
+      clk = 1'b0;
+      repeat(100)
+      #1 clk = ~clk;
+    end
+  
+endmodule
+    
+  
