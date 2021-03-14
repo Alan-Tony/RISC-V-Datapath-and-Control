@@ -50,3 +50,12 @@ module ALU_1b_Ordinary(a, b, Less, Ainvert, Binvert, CarryIn, Operation, Result,
   assign inputs4to1[3] = Less; 
   
 endmodule
+
+//Defining 1-bit ALU module for the MSB
+module ALU_1bit_MSB(a, b, Less, Ainvert, Binvert, CarryIn, Operation, Result, CarryOut, Set, Overflow);
+  
+  input wire a, b, Less, Ainvert, Binvert, CarryIn;
+  input wire [1:0] Operation;
+  output wire Result, CarryOut, Set, Overflow;
+  
+endmodule
