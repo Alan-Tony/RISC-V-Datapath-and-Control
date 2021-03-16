@@ -1,4 +1,33 @@
-`include "ALU_1bit.v"  //Utility Modules are already included in ALU.v
+//`include "ALU_1bit.v"  //Utility Modules are already included in ALU.v
+`include "ALU_64bit.v"
+
+module ALU_TopLevel_TB;
+  
+  reg signed [63:0] A, B;
+  
+  reg [1:0] ALUOp;
+  reg [5:0] Func;  
+  wire [3:0] Operation;
+  
+  wire signed [63:0] Result;
+  wire Overflow, Zero;
+  
+  ALU_CU CU(.ALUOp (ALUOp), .Func (Func), .Operation (Operation));
+  ALU_64bit ALU64(.A (A), .B (B), .Operation(Operation), .Result (Result), .Overflow, .Zero);
+  
+  initial
+    begin
+      
+      A = 64'b0111111110111111111111111111111111111111111111111111111111111111;
+      B = 64'b0111111111111111111111111111111111111111111111111111111111111111;
+      ALUOp = 2'b10;
+      Func = 6'b101010;
+      #5 $display("A= %d, B= %d, Result= %d, Overflow= %d, Zero= %d", A, B, Result, Overflow, Zero);
+      //$display
+          
+    end
+  
+endmodule
 
 module ALU_1b_MSB_TB;
   
@@ -113,7 +142,7 @@ module fullAdder_TB;
 endmodule
 
 
-//Testbench
+//Testbench for 4:1 mux
 module mux4to1_TB;
   
   reg [3:0] inp;

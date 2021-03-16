@@ -5,12 +5,15 @@ Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
 -- Compiling module fullAdder
 -- Compiling module ALU_1b_Ordinary
 -- Compiling module ALU_1bit_MSB
+-- Compiling module ALU_64bit
+-- Compiling module ALU_TopLevel_TB
 -- Compiling module ALU_1b_MSB_TB
 -- Compiling module ALU_1b_Ordinary_TB
 -- Compiling module fullAdder_TB
 -- Compiling module mux4to1_TB
 
 Top level modules:
+	ALU_TopLevel_TB
 	ALU_1b_MSB_TB
 	ALU_1b_Ordinary_TB
 	fullAdder_TB
@@ -26,6 +29,13 @@ Top level modules:
 	mux4to1
 	fullAdder
 
+} {} {}} {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/ALU_CU.v} {1 {vlog -work work {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/ALU_CU.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module ALU_CU
+
+Top level modules:
+	ALU_CU
+
 } {} {}} {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/ALU_1bit.v} {1 {vlog -work work {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/ALU_1bit.v}
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
 -- Compiling module mux2to1
@@ -37,5 +47,17 @@ Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
 Top level modules:
 	ALU_1b_Ordinary
 	ALU_1bit_MSB
+
+} {} {}} {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/ALU_64bit.v} {1 {vlog -work work {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/ALU_64bit.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module mux2to1
+-- Compiling module mux4to1
+-- Compiling module fullAdder
+-- Compiling module ALU_1b_Ordinary
+-- Compiling module ALU_1bit_MSB
+-- Compiling module ALU_64bit
+
+Top level modules:
+	ALU_64bit
 
 } {} {}}
