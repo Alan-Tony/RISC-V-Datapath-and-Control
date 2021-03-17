@@ -18,13 +18,55 @@ module ALU_TopLevel_TB;
   initial
     begin
       
-      A = 64'b0111111110111111111111111111111111111111111111111111111111111111;
-      B = 64'b0111111111111111111111111111111111111111111111111111111111111111;
+      //Load/Store. Basically addition (of addresses)
+      A = 123;
+      B = 4;
+      ALUOp = 2'b00;
+      Func = 6'bxxxxxx;
+      #5 $display("\nTesting for Load/Store Adddress Calculation:\nA= %d, B= %d, Result= %d, Overflow= %d, Zero= %d", A, B, Result, Overflow, Zero);
+      
+      //BEQ (Check for equality. Zero bit is set on true unset on false)
+      A = 254;
+      B = 254;
+      ALUOp = 2'b01;
+      Func = 6'bxxxxxx;
+      #5 $display("\nTesting for Branch On Equal:\nA= %d, B= %d, Result= %d, Overflow= %d, Zero= %d", A, B, Result, Overflow, Zero);
+      
+      //Add
+      A = -5;
+      B = 12;
+      ALUOp = 2'b10;
+      Func = 6'b100000;
+      #5 $display("\nTesting for Addition:\nA= %d, B= %d, Result= %d, Overflow= %d, Zero= %d", A, B, Result, Overflow, Zero);
+      
+      //Sub
+      A = 20;
+      B = 111;
+      ALUOp = 2'b10;
+      Func = 6'b100010;
+      #5 $display("\nTesting for Subtraction: A= %d, B= %d, Result= %d, \nOverflow= %d, Zero= %d", A, B, Result, Overflow, Zero);
+      
+      //AND
+      A = 10;
+      B = 12;
+      ALUOp = 2'b10;
+      Func = 6'b100100;
+      #5 $display("\nTesting for Logical AND: \nA= %b, \nB= %b, \nResult= %b, Overflow= %d, Zero= %d", A, B, Result, Overflow, Zero);
+      
+      //OR
+      A = 10;
+      B = 12;
+      ALUOp = 2'b10;
+      Func = 6'b100101;
+      #5 $display("\nTesting for Logical OR: \nA= %b, \nB= %b, \nResult= %b, Overflow= %d, Zero= %d", A, B, Result, Overflow, Zero);
+      
+      //SLT
+      A = 123;
+      B = 10242;
       ALUOp = 2'b10;
       Func = 6'b101010;
-      #5 $display("A= %d, B= %d, Result= %d, Overflow= %d, Zero= %d", A, B, Result, Overflow, Zero);
-      //$display
-          
+      #5 $display("\nTesting for Store Less Than:\nA= %d, B= %d, Result= %d, Overflow= %d, Zero= %d", A, B, Result, Overflow, Zero);    
+                
     end
   
 endmodule
