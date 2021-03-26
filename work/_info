@@ -4,82 +4,82 @@ K3
 cModel Technology
 Z0 dC:\Alan Part 2\College Work\Year 2 Part 2\Semester 4\CS250 - Computer Organization & Architecture\Assignments\A2-5\RISC-V_64-bit_ALU
 vALU_1b_MSB_TB
-Z1 !s100 z=UHLoH@SM7>E]3DVblg20
-Z2 I@iQT=d7z3>;IDXd3lZKMg2
-Z3 VOO<iU@oZnmJhPdRCQ9V[I3
-Z4 dC:\Alan Part 2\College Work\Year 2 Part 2\Semester 4\CS250 - Computer Organization & Architecture\Assignments\A2-5\RISC-V_64-bit_ALU
-Z5 w1615987422
-Z6 8C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/testbenches.v
-Z7 FC:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/testbenches.v
+Z1 I@iQT=d7z3>;IDXd3lZKMg2
+Z2 VOO<iU@oZnmJhPdRCQ9V[I3
+Z3 dC:\Alan Part 2\College Work\Year 2 Part 2\Semester 4\CS250 - Computer Organization & Architecture\Assignments\A2-5\RISC-V_64-bit_ALU
+Z4 w1616001143
+Z5 8C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/testbenches.v
+Z6 FC:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/testbenches.v
 L0 74
-Z8 OV;L;10.1b;51
+Z7 OV;L;10.1b;51
 r1
 31
-Z9 !s108 1615987675.577000
-Z10 !s107 Utility_Modules.v|ALU_1bit.v|ALU_64bit.v|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/testbenches.v|
-Z11 !s90 -reportprogress|300|-work|work|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/testbenches.v|
-Z12 o-work work -O0
-Z13 n@a@l@u_1b_@m@s@b_@t@b
+Z8 !s108 1616262588.102000
+Z9 !s107 Utility_Modules.v|ALU_1bit.v|ALU_64bit.v|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/testbenches.v|
+Z10 !s90 -reportprogress|300|-work|work|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/testbenches.v|
+Z11 o-work work -O0
+Z12 n@a@l@u_1b_@m@s@b_@t@b
+Z13 !s100 z=UHLoH@SM7>E]3DVblg20
 !i10b 1
 !s85 0
 !s101 -O0
 vALU_1b_Ordinary
 Z14 I>aJhdh>;dfL=>HcId1h=n2
 Z15 VRD^1J2<1I[;Ka7`zT<5a23
-R4
+R3
 Z16 w1615916985
 Z17 FALU_1bit.v
 Z18 8C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/ALU_64bit.v
 Z19 FC:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/ALU_64bit.v
 L0 4
-R8
+R7
 r1
 31
-Z20 !s108 1615987676.192000
+Z20 !s108 1616262589.337000
 Z21 !s107 Utility_Modules.v|ALU_1bit.v|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/ALU_64bit.v|
 Z22 !s90 -reportprogress|300|-work|work|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/ALU_64bit.v|
-R12
+R11
 Z23 n@a@l@u_1b_@ordinary
 !i10b 1
 Z24 !s100 e0lbSzo=8CzcMTdCIoo1I2
 !s85 0
 !s101 -O0
 vALU_1b_Ordinary_TB
-Z25 !s100 jg2k60GcbAXh<OYZ78J`T3
-Z26 IoMdPNi1EWX@LPncKMSP503
-Z27 V>Nj90@oRnK;CQhilUR0lE2
+Z25 IoMdPNi1EWX@LPncKMSP503
+Z26 V>Nj90@oRnK;CQhilUR0lE2
+R3
 R4
 R5
 R6
+Z27 L0 117
 R7
-Z28 L0 117
-R8
 r1
 31
+R8
 R9
 R10
 R11
-R12
-Z29 n@a@l@u_1b_@ordinary_@t@b
+Z28 n@a@l@u_1b_@ordinary_@t@b
+Z29 !s100 jg2k60GcbAXh<OYZ78J`T3
 !i10b 1
 !s85 0
 !s101 -O0
 vALU_1bit_MSB
 Z30 IP`n7PMCmn1GKW51A6OZ_H0
 Z31 VWJ?l8Y]l_MYg@SD=3BghP3
-R4
+R3
 R16
 R17
 R18
 R19
 L0 55
-R8
+R7
 r1
 31
 R20
 R21
 R22
-R12
+R11
 Z32 n@a@l@u_1bit_@m@s@b
 !i10b 1
 Z33 !s100 nl;7HiZ]AKlVz9L`nIdH>1
@@ -88,18 +88,18 @@ Z33 !s100 nl;7HiZ]AKlVz9L`nIdH>1
 vALU_64bit
 Z34 IRNJhM`_[L4BCZK^Uk<QF_3
 Z35 V4XA]Lf@ojm]k[5Mmje?5S1
-R4
+R3
 R16
 R18
 R19
 L0 3
-R8
+R7
 r1
 31
 R20
 R21
 R22
-R12
+R11
 Z36 n@a@l@u_64bit
 !i10b 1
 Z37 !s100 fAf:kbZXDQHkZK7=:bY>O0
@@ -107,142 +107,142 @@ Z37 !s100 fAf:kbZXDQHkZK7=:bY>O0
 !s101 -O0
 vALU_CU
 !i10b 1
-Z38 !s100 bg_[62^oY3nkhUNEjm1l<0
-Z39 IM88E91=c?J5`IEZO4D9W11
-Z40 VUd^G[XMc@Im4gJ]Adl_fS0
-R4
+!s100 bg_[62^oY3nkhUNEjm1l<0
+IM88E91=c?J5`IEZO4D9W11
+VUd^G[XMc@Im4gJ]Adl_fS0
+R3
 R16
-Z41 8C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/ALU_CU.v
-Z42 FC:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/ALU_CU.v
+8C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/ALU_CU.v
+FC:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/ALU_CU.v
 L0 2
-R8
+R7
 r1
 !s85 0
 31
-!s108 1615987676.401000
+!s108 1616262589.746000
 !s107 C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/ALU_CU.v|
-Z43 !s90 -reportprogress|300|-work|work|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/ALU_CU.v|
+!s90 -reportprogress|300|-work|work|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/ALU_CU.v|
 !s101 -O0
-R12
-Z44 n@a@l@u_@c@u
+R11
+n@a@l@u_@c@u
 vALU_TopLevel_TB
-Z45 !s100 ^UVDghz@@:0<BGoZCl=QK3
-Z46 I^ebgD9MI2aONd@NZlPUlO2
-Z47 V9@cEZeIW5bAlJPN2^6L2J1
+Z38 I^ebgD9MI2aONd@NZlPUlO2
+Z39 V9@cEZeIW5bAlJPN2^6L2J1
+R3
 R4
 R5
 R6
-R7
 L0 4
-R8
+R7
 r1
 31
+R8
 R9
 R10
 R11
-R12
-Z48 n@a@l@u_@top@level_@t@b
+Z40 n@a@l@u_@top@level_@t@b
+Z41 !s100 ^UVDghz@@:0<BGoZCl=QK3
 !i10b 1
 !s85 0
 !s101 -O0
 vfullAdder
-Z49 !s100 1WL;WbGJ`6W=]4M^=@l7>2
-Z50 I:PfX<]gf70IkTf;S2j2kO3
-Z51 VJhoQ@_Ei>GQaF=M^Plo_i2
-R4
+Z42 !s100 1WL;WbGJ`6W=]4M^=@l7>2
+Z43 I:PfX<]gf70IkTf;S2j2kO3
+Z44 VJhoQ@_Ei>GQaF=M^Plo_i2
+R3
 R16
-Z52 FUtility_Modules.v
+Z45 FUtility_Modules.v
 R18
 R19
 L0 43
-R8
+R7
 r1
 31
 R20
 R21
 R22
-R12
-Z53 nfull@adder
+R11
+Z46 nfull@adder
 !i10b 1
 !s85 0
 !s101 -O0
 vfullAdder_TB
-Z54 !s100 oXNM2KYDGQ^2Mc_LHNo3[1
-Z55 IINoCV7T09ZCW2EeGzK:@f3
-Z56 V:TCg@Ld]O4W8QSnLRCmgl2
+Z47 IINoCV7T09ZCW2EeGzK:@f3
+Z48 V:TCg@Ld]O4W8QSnLRCmgl2
+R3
 R4
 R5
 R6
+Z49 L0 158
 R7
-Z57 L0 158
-R8
 r1
 31
+R8
 R9
 R10
 R11
-R12
-Z58 nfull@adder_@t@b
+Z50 nfull@adder_@t@b
+Z51 !s100 oXNM2KYDGQ^2Mc_LHNo3[1
 !i10b 1
 !s85 0
 !s101 -O0
 vmux2to1
-Z59 !s100 E<ajTAd@DRG@Id4OjXG_`3
-Z60 Ini5cd7ea8nDJN<AO87GQh1
-Z61 Vme8]Td;UoLbTmGk3>4@:e3
-R4
+Z52 !s100 E<ajTAd@DRG@Id4OjXG_`3
+Z53 Ini5cd7ea8nDJN<AO87GQh1
+Z54 Vme8]Td;UoLbTmGk3>4@:e3
+R3
 R16
-R52
+R45
 R18
 R19
 L0 2
-R8
+R7
 r1
 31
 R20
 R21
 R22
-R12
+R11
 !i10b 1
 !s85 0
 !s101 -O0
 vmux4to1
-Z62 !s100 ;_gSFi@bA3[=Rkem5UaZ73
-Z63 I<GO14n;R71<R<<Y`6FgzS3
-Z64 VWGYZOMHiMGYdlNl_cH2fK3
-R4
+Z55 !s100 ;_gSFi@bA3[=Rkem5UaZ73
+Z56 I<GO14n;R71<R<<Y`6FgzS3
+Z57 VWGYZOMHiMGYdlNl_cH2fK3
+R3
 R16
-R52
+R45
 R18
 R19
 L0 24
-R8
+R7
 r1
 31
 R20
 R21
 R22
-R12
+R11
 !i10b 1
 !s85 0
 !s101 -O0
 vmux4to1_TB
-Z65 !s100 k_@=aP=lIKPPM3NBT;PQo1
-Z66 Io[nBR@6V1iWIJH`f`?Z7]1
-Z67 V63<7BO3iVIoN=MzP?3f3h1
+Z58 Io[nBR@6V1iWIJH`f`?Z7]1
+Z59 V63<7BO3iVIoN=MzP?3f3h1
+R3
 R4
 R5
 R6
+Z60 L0 188
 R7
-Z68 L0 188
-R8
 r1
 31
+R8
 R9
 R10
 R11
-R12
-Z69 nmux4to1_@t@b
+Z61 nmux4to1_@t@b
+Z62 !s100 k_@=aP=lIKPPM3NBT;PQo1
 !i10b 1
 !s85 0
 !s101 -O0
