@@ -1,3 +1,4 @@
+`timescale 1ns/1ps
 `include "Utility_Modules.v"
 
 //1-bit ALU module

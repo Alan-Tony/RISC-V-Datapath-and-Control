@@ -1,4 +1,5 @@
-`include "ALU_1bit.v"
+//`timescale 1ns/1ps
+//`include "ALU_1bit.v"
 
 module ALU_64bit(A, B, Operation, Result, Overflow, Zero);
   
