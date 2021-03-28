@@ -57,7 +57,3 @@ module fullAdder(a, b, Cin, sum, Cout);
     or G5(Cout, w1, w2);    
   
 endmodule
-
-//1-bit ALU module
-module ALU_1b_Ordinary(a, b, Less, Ainvert, Binvert, CarryIn, Operation, Result, CarryOut);
-  

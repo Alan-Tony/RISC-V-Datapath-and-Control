@@ -1,0 +1,34 @@
+`include "Instruction_Fetch.v"
+
+module IF_Testbench();
+  
+  reg clk = 1'b0;
+  reg reset = 1'b0;
+  wire [31:0] instruction;
+  
+  reg [64:0] branches[0:2], branch;
+  reg select;
+  reg [64:0] concat;
+  
+  Instruction_Fetch IF(
+  .clk (clk), .reset (reset), .pc_branch (branch), .select (select), .instruction (instruction)
+  );
+  
+  integer i;
+  
+  initial
+  begin
+  
+  $readmemb("branch_select.mem", branches);
+    
+  for(i=0; i<3; i=i+1)
+  begin
+    concat = branches[i];
+    select = concat[64];
+    branch = concat[63:0];
+    
+    #10 clk  = ~clk;
+  end
+  
+endmodule
+
