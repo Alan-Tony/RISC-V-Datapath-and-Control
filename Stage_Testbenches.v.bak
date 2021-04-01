@@ -27,7 +27,9 @@ module IF_Testbench();
     select = concat[64];
     branch = concat[63:0];
     
-    #10 clk  = ~clk;
+    #15 clk  = ~clk;
+  end
+  
   end
   
 endmodule

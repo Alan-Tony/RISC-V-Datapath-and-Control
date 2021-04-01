@@ -18,11 +18,11 @@ module Data_Memory(clk, MemRead, MemWrite, address, WriteData, ReadData);
     always @(posedge clk)
     begin
         
-        if(MemWrite ^ MemRead)  //Both read an write cannot happen at the same time
+        if(MemWrite ^ MemRead)  //Both read and write cannot happen at the same time
         begin
-          if(MemWrite) dataMemory[address] = WriteData;
+          if(MemWrite) #1 dataMemory[address] = WriteData;
         
-          if(MemRead) ReadData = dataMemory[address];
+          if(MemRead) #1 ReadData = dataMemory[address];
         end
     end
 

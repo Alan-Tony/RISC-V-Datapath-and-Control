@@ -23,11 +23,11 @@ module IF_Testbench();
     
   for(i=0; i<3; i=i+1)
   begin
-    concat = branches[i];
-    select = concat[64];
-    branch = concat[63:0];
+    concat <= branches[i];
+    select <= concat[64];
+    branch <= concat[63:0];
     
-    #10 clk  = ~clk;
+    #15 clk  = ~clk;
   end
   
   end

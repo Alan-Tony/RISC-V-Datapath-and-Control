@@ -1,26 +1,6 @@
 //`timescale 1ns/1ps
 `include "ALU_64bit.v"
 
-module Instruction_Memory(instruction, address);
-
-    input [63:0] address; //Passed by IF hardware module
-    output reg [31:0] instruction;  //Fetched instruction
-    
-    reg [31:0] instructionMemory[31:0];  //Reg used to simulate memory
-
-    initial
-    begin
-        $readmemb("instructions.mem", instructionMemory);    //Loading instructions from text file
-    end
-
-    always @(address)
-    begin
-        instruction = instructionMemory[address];
-        #1 $display("instruction fetched- %b, address- %d", instruction, address); 
-    end
-
-endmodule
-
 module Instruction_Fetch(clk, reset, pc_branch, select, instruction);
 
     input clk;                //Clock for all stages in the pipeline
@@ -39,19 +19,23 @@ module Instruction_Fetch(clk, reset, pc_branch, select, instruction);
             pc_current <= 64'b0;
         else
             pc_current <= pc_next;
+            
+        case(select)
+          1'b0  : pc_next <= pc_4;
+          1'b1  : pc_next <= pc_branch;
+          default : pc_next <= pc_4;
+        endcase
     end
 
     ALU_64bit A0(.A (pc_current), .B (64'd4), .Operation (4'b0010), .Result (pc_4), .Overflow (), .Zero ());
    
     //Selecting
+    /*
     always @(pc_4 or pc_branch) 
     begin
-        case(select)
-          1'b0  : pc_next = pc_4;
-          1'b1  : pc_next = pc_branch;
-          default : pc_next = pc_4;
-        endcase
+        
     end
+    */
 
     Instruction_Memory IM(instruction, pc_current>>2);
     

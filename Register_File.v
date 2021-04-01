@@ -21,7 +21,7 @@ module regfile(clk, regWrite, readReg1, readReg2, writeReg, writeData, readData1
    begin
         if(regWrite == 1) 
         begin
-          regFile[writeReg] <= writeData;
+          #1 regFile[writeReg] <= writeData;
         end
    end
         
@@ -30,8 +30,8 @@ module regfile(clk, regWrite, readReg1, readReg2, writeReg, writeData, readData1
    begin
         if(regWrite == 0) 
         begin
-           readData1 = regFile[readReg1];
-           readData2 = regFile[readReg2];
+           #1 readData1 = regFile[readReg1];
+           #1 readData2 = regFile[readReg2];
         end
    end
    

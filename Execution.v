@@ -1,0 +1,88 @@
+`include "ALU_64bit.v"
+`include "ALU_CU.v"
+
+    input wire Mem_Read_recieve;
+module exec(clk,  ALU_Src_recieve, Mem_Write_recieve, ALU_Op_recieve, Mem_to_Reg_recieve,Mem_Read_recieve, Branch_recieve,
+             ALU_Op, Mem_to_Reg, Mem_Write, Mem_Read, Branch,
+              pc_recieve, extended_recieve,
+              read_data_1_recieve, read_data_2_recieve, read_data_2, Func_recieve,pcbranch,
+              Result, Zero);
+                 
+
+    input wire clk;
+    
+    //Control Unit signals
+    input wire ALU_Src_recieve;
+    input wire Mem_Write_recieve;
+    input wire [1:0] ALU_Op_recieve;
+    input wire Mem_to_Reg_recieve;
+    input wire Mem_Read_recieve;
+    input wire Branch_recieve;
+
+    
+    //Updated Control Unit signals
+    reg ALU_Src = 0;
+    reg [1:0] ALU_Op = 2'b0;
+    output reg Mem_Write = 0;
+    output reg Mem_to_Reg = 0;
+    output reg Mem_Read = 0;
+    output reg Branch = 0;
+
+    //ALU 1 inputs
+    input pc_recieve;    
+    input extended_recieve;
+    //Updated ALU 1 inputs
+    reg pc;
+    reg[63:0] extended;
+
+
+    //Output of ALU 2
+    output wire pcbranch;
+    //ALU 2 inputs
+    input read_data_1_recieve;
+    input read_data_2_recieve;
+    input [3:0] Func_recieve;
+
+
+    // Updated ALU 2 inputs
+    reg[63:0] read_data_1;
+    output reg[63:0] read_data_2;
+    wire[63:0] read_data_2_in_ALU2;
+    reg [3:0] Func;
+    wire [3:0] Operation;
+
+    //ALU2 outputs
+    output [63:0] Result;
+    output Zero;
+
+    ALU_64bit ALU1(.A (pc), .B (extended << 2), .Operation (4'b0010) .result(pcbranch), .Overflow(), .Zero() );
+
+    ALU_64bit ALU2(.A (read_data_1), .B (read_data_2_in_ALU2), .Operation (Operation) .result(Result), .Overflow(), .Zero() );
+
+
+    ALU_CU control(.ALUOp(ALU_Op), .Func(Func), .Operation(Operation));
+
+    case(ALU_Src)
+            1'b0: assign read_data_2_in_ALU2 <= read_data_2;
+            1'b1: assign read_data_2_in_ALU2 <= extended;
+    endcase
+
+    always @(posedge clk) 
+    begin
+        assign ALU_Src <= ALU_Src_recieve;
+        assign Mem_Write <= Mem_Write_recieve;
+        assign ALU_Op <= ALU_Op_recieve;
+        assign Mem_to_Reg <= Mem_to_Reg_receive;
+        assign Mem_Read <= Mem_Read_recieve;
+        assign Branch <= Branch_receive;
+
+        assign pc <= pc_recieve;
+        assign extended <= extended_recieve;
+
+        assign read_data_1 <= read_data_1_recieve;
+        assign read_data_2 <= read_data_2_recieve;
+        assign Func <= Func_recieve;
+      end
+
+
+endmodule

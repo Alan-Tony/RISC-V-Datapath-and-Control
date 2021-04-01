@@ -39,20 +39,24 @@ module Instruction_Fetch(clk, reset, pc_branch, select, instruction);
             pc_current <= 64'b0;
         else
             pc_current <= pc_next;
+            
+        case(select)
+          1'b0  : #2 pc_next <= pc_4;
+          1'b1  : #2 pc_next <= pc_branch;
+          default : #2 pc_next <= pc_4;
+        endcase
     end
 
     ALU_64bit A0(.A (pc_current), .B (64'd4), .Operation (4'b0010), .Result (pc_4), .Overflow (), .Zero ());
    
     //Selecting
+    /*
     always @(pc_4 or pc_branch) 
     begin
-        case(select)
-          1'b0  : pc_next = pc_4;
-          1'b1  : pc_next = pc_branch;
-          default : pc_next = pc_4;
-        endcase
+        
     end
+    */
 
-    Instruction_Memory IM(instruction, pc_current);
+    Instruction_Memory IM(instruction, pc_current>>2);
     
 endmodule

@@ -3,7 +3,8 @@
 
 module ALU_64bit(A, B, Operation, Result, Overflow, Zero);
   
-  input wire signed [63:0] A, B, Result;
+  input wire signed [63:0] A, B;
+  output wire signed [63:0] Result;
   input wire [3:0] Operation;  
   output wire Overflow, Zero;
   
