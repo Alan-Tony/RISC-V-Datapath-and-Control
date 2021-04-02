@@ -61,14 +61,13 @@ module exec(clk,  ALU_Src_recieve, Mem_Write_recieve, ALU_Op_recieve, Mem_to_Reg
 
     ALU_CU control(.ALUOp(ALU_Op), .Func(Func), .Operation(Operation));
 
-    always @(posedge clk) 
-    begin
-      
-        case(ALU_Src)
+    case(ALU_Src)
             1'b0: read_data_2_in_ALU2 = read_data_2;
             1'b1: read_data_2_in_ALU2 = extended;
-        endcase
-      
+    endcase
+
+    always @(posedge clk) 
+    begin
         assign ALU_Src = ALU_Src_recieve;
         assign Mem_Write = Mem_Write_recieve;
         assign ALU_Op = ALU_Op_recieve;
@@ -82,8 +81,7 @@ module exec(clk,  ALU_Src_recieve, Mem_Write_recieve, ALU_Op_recieve, Mem_to_Reg
         assign read_data_1 = read_data_1_recieve;
         assign read_data_2 = read_data_2_recieve;
         assign Func = Func_recieve;
-        
-    end 
+      end
 
 
 endmodule
