@@ -1,4 +1,3 @@
-`timescale 1ns/1ps
 
 //2:1 mux
 module mux2to1(op, ip, select);

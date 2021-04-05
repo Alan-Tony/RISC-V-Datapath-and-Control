@@ -1,5 +1,10 @@
 {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/testbenches.v} {1 {vlog -work work {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/testbenches.v}
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module mux2to1
+-- Compiling module mux4to1
+-- Compiling module fullAdder
+-- Compiling module ALU_1b_Ordinary
+-- Compiling module ALU_1bit_MSB
 -- Compiling module ALU_64bit
 -- Compiling module signextend
 -- Compiling module signextendtestbench
@@ -38,10 +43,30 @@ Top level modules:
 
 } {} {}} {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ALU_64bit.v} {1 {vlog -work work {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ALU_64bit.v}
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module mux2to1
+-- Compiling module mux4to1
+-- Compiling module fullAdder
+-- Compiling module ALU_1b_Ordinary
+-- Compiling module ALU_1bit_MSB
 -- Compiling module ALU_64bit
 
 Top level modules:
 	ALU_64bit
+
+} {} {}} {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v} {1 {vlog -work work {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module mux2to1
+-- Compiling module mux4to1
+-- Compiling module fullAdder
+-- Compiling module ALU_1b_Ordinary
+-- Compiling module ALU_1bit_MSB
+-- Compiling module ALU_64bit
+-- Compiling module Instruction_Memory
+-- Compiling module Instruction_Fetch
+-- Compiling module IF_Testbench
+
+Top level modules:
+	IF_Testbench
 
 } {} {}} {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Utility_Modules.v} {1 {vlog -work work {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Utility_Modules.v}
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
@@ -75,14 +100,26 @@ Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
 Top level modules:
 	Data_Memory
 
-} {} {}} {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v} {1 {vlog -work work {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v}
+} {} {}} {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Instruction_Memory.v} {1 {vlog -work work {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Instruction_Memory.v}
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
--- Compiling module ALU_64bit
--- Compiling module ALU_CU
--- Compiling module exec
+-- Compiling module Instruction_Memory
 
 Top level modules:
-	exec
+	Instruction_Memory
+
+} {} {}} {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Instruction_Fetch.v} {1 {vlog -work work {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Instruction_Fetch.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module mux2to1
+-- Compiling module mux4to1
+-- Compiling module fullAdder
+-- Compiling module ALU_1b_Ordinary
+-- Compiling module ALU_1bit_MSB
+-- Compiling module ALU_64bit
+-- Compiling module Instruction_Memory
+-- Compiling module Instruction_Fetch
+
+Top level modules:
+	Instruction_Fetch
 
 } {} {}} {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Register_File.v} {1 {vlog -work work {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Register_File.v}
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
@@ -90,6 +127,20 @@ Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
 
 Top level modules:
 	regfile
+
+} {} {}} {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v} {1 {vlog -work work {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module mux2to1
+-- Compiling module mux4to1
+-- Compiling module fullAdder
+-- Compiling module ALU_1b_Ordinary
+-- Compiling module ALU_1bit_MSB
+-- Compiling module ALU_64bit
+-- Compiling module ALU_CU
+-- Compiling module exec
+
+Top level modules:
+	exec
 
 } {} {}} {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Sign_Extension.v} {1 {vlog -work work {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Sign_Extension.v}
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012

@@ -1,5 +1,4 @@
 //`include "ALU_1bit.v"  //Utility Modules are already included in ALU.v
-//`timescale 1ns/1ps
 `include "ALU_64bit.v"
 `include "Sign_Extension.v"
 

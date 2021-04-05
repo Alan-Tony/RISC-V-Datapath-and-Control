@@ -4,19 +4,19 @@ K3
 cModel Technology
 Z0 dC:\Alan Part 2\College Work\Year 2 Part 2\Semester 4\CS250 - Computer Organization & Architecture\Assignments\A2-5\RISC-V_64-bit_ALU
 vALU_1b_MSB_TB
-Z1 !s100 lE5TfARf9DLOAHa^2[90]3
-Z2 ITo7SPnoc5_3[BA8a:HS<G3
+Z1 !s100 3MWkhHaWmm<]QL<LC67?b1
+Z2 I`:E:j=Hz4_@TEJ2?o4cSQ3
 Z3 VOO<iU@oZnmJhPdRCQ9V[I3
 Z4 dC:\Alan Part 2\College Work\Year 2 Part 2\Semester 4\CS250 - Computer Organization & Architecture\Assignments\A2-5\RISC-V-Datapath-and-Control
-Z5 w1616961159
+Z5 w1617614653
 Z6 8C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/testbenches.v
 Z7 FC:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/testbenches.v
-Z8 L0 109
+Z8 L0 108
 Z9 OV;L;10.1b;51
 r1
 31
-Z10 !s108 1617509855.726000
-Z11 !s107 Sign_Extension.v|ALU_64bit.v|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/testbenches.v|
+Z10 !s108 1617617341.859000
+Z11 !s107 Sign_Extension.v|Utility_Modules.v|ALU_1bit.v|ALU_64bit.v|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/testbenches.v|
 Z12 !s90 -reportprogress|300|-work|work|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/testbenches.v|
 Z13 o-work work -O0
 Z14 n@a@l@u_1b_@m@s@b_@t@b
@@ -24,34 +24,35 @@ Z14 n@a@l@u_1b_@m@s@b_@t@b
 !s85 0
 !s101 -O0
 vALU_1b_Ordinary
-Z15 !s100 FQ:iTdEnOJUTR5;nj`o]72
-Z16 ICLG5GYHd]d]i9J>cmUHS;2
+Z15 !s100 e0lbSzo=8CzcMTdCIoo1I2
+Z16 I>aJhdh>;dfL=>HcId1h=n2
 Z17 VRD^1J2<1I[;Ka7`zT<5a23
 R4
-R5
-Z18 8C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ALU_1bit.v
-Z19 FC:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ALU_1bit.v
-L0 5
+Z18 w1617614507
+Z19 FALU_1bit.v
+Z20 8C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v
+Z21 FC:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v
+L0 4
 R9
 r1
 31
-Z20 !s108 1617509855.304000
-Z21 !s107 Utility_Modules.v|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ALU_1bit.v|
-Z22 !s90 -reportprogress|300|-work|work|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ALU_1bit.v|
+Z22 !s108 1617617343.125000
+Z23 !s107 ALU_CU.v|Utility_Modules.v|ALU_1bit.v|ALU_64bit.v|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v|
+Z24 !s90 -reportprogress|300|-work|work|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v|
 R13
-Z23 n@a@l@u_1b_@ordinary
+Z25 n@a@l@u_1b_@ordinary
 !i10b 1
 !s85 0
 !s101 -O0
 vALU_1b_Ordinary_TB
-Z24 !s100 fZ6akQkg@ENXhfCTck_Sz3
-Z25 I>SUH^YFU8FIFC3S>A[WVO3
-Z26 V>Nj90@oRnK;CQhilUR0lE2
+Z26 !s100 9>:<TGYdSn2WAE]^1`:c93
+Z27 II5oA]29ZKf_f1CfW0fkl62
+Z28 V>Nj90@oRnK;CQhilUR0lE2
 R4
 R5
 R6
 R7
-Z27 L0 152
+Z29 L0 151
 R9
 r1
 31
@@ -59,101 +60,102 @@ R10
 R11
 R12
 R13
-Z28 n@a@l@u_1b_@ordinary_@t@b
+Z30 n@a@l@u_1b_@ordinary_@t@b
 !i10b 1
 !s85 0
 !s101 -O0
 vALU_1bit_MSB
-Z29 !s100 D7O_>HiZAYa[>5hWCX`gL3
-Z30 IP?_WOeg_A=CY<o93Z9Ce<1
-Z31 VWJ?l8Y]l_MYg@SD=3BghP3
+Z31 !s100 nl;7HiZ]AKlVz9L`nIdH>1
+Z32 IP`n7PMCmn1GKW51A6OZ_H0
+Z33 VWJ?l8Y]l_MYg@SD=3BghP3
 R4
-R5
 R18
 R19
-L0 56
+R20
+R21
+L0 55
 R9
 r1
 31
-R20
-R21
 R22
+R23
+R24
 R13
-Z32 n@a@l@u_1bit_@m@s@b
+Z34 n@a@l@u_1bit_@m@s@b
 !i10b 1
 !s85 0
 !s101 -O0
 vALU_64bit
-Z33 !s100 glYfO3:>g?2WQOI3f]:880
-Z34 INfecgJK@c;<I<MOIVBnZ22
-Z35 VeLWDSPnE7@_2onOhL;i6n0
+Z35 !s100 nQ^5S_`@X<INHTRgYK49C1
+Z36 IHk:mPPW8QAh:@SkADcL431
+Z37 VeLWDSPnE7@_2onOhL;i6n0
 R4
-Z36 w1617330462
-Z37 FALU_64bit.v
-Z38 8C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v
-Z39 FC:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v
-L0 4
+Z38 w1617614537
+Z39 FALU_64bit.v
+R20
+R21
+L0 3
 R9
 r1
 31
-Z40 !s108 1617509856.826000
-Z41 !s107 ALU_CU.v|ALU_64bit.v|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v|
-Z42 !s90 -reportprogress|300|-work|work|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v|
+R22
+R23
+R24
 R13
-Z43 n@a@l@u_64bit
+Z40 n@a@l@u_64bit
 !i10b 1
 !s85 0
 !s101 -O0
 vALU_CU
-Z44 I;U:bS1c83kVRgoAfR?iHM3
-Z45 Vk4?ZTQj:5ZISR14bY_kb71
+Z41 I;U:bS1c83kVRgoAfR?iHM3
+Z42 Vk4?ZTQj:5ZISR14bY_kb71
 R4
-R36
-Z46 FALU_CU.v
-R38
-R39
+Z43 w1617330462
+Z44 FALU_CU.v
+R20
+R21
 L0 3
 R9
 r1
 31
-R40
-R41
-R42
+R22
+R23
+R24
 R13
-Z47 n@a@l@u_@c@u
-Z48 !s100 JEYcSRf]`?=:QQMG_4zJi2
+Z45 n@a@l@u_@c@u
+Z46 !s100 JEYcSRf]`?=:QQMG_4zJi2
 !i10b 1
 !s85 0
 !s101 -O0
 vALU_CU_Trial
-Z49 !s100 RNBK_cYPI[eDjjlAGFAj21
-Z50 I2D:57iI`jFA[lQ<blJZVV1
-Z51 V5h`DkhUHdClNbeWcY5hS@0
+Z47 !s100 RNBK_cYPI[eDjjlAGFAj21
+Z48 I2D:57iI`jFA[lQ<blJZVV1
+Z49 V5h`DkhUHdClNbeWcY5hS@0
 R4
-Z52 w1616935556
-Z53 8C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ALU_CU.v
-Z54 FC:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ALU_CU.v
+Z50 w1616935556
+Z51 8C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ALU_CU.v
+Z52 FC:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ALU_CU.v
 L0 3
 R9
 r1
 31
-Z55 !s108 1616935558.240000
-Z56 !s107 C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ALU_CU.v|
-Z57 !s90 -reportprogress|300|-work|work|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ALU_CU.v|
+Z53 !s108 1616935558.240000
+Z54 !s107 C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ALU_CU.v|
+Z55 !s90 -reportprogress|300|-work|work|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ALU_CU.v|
 R13
-Z58 n@a@l@u_@c@u_@trial
+Z56 n@a@l@u_@c@u_@trial
 !i10b 1
 !s85 0
 !s101 -O0
 vALU_TopLevel_TB
-Z59 !s100 aVO:4k]aX16>hW?3Olk?P1
-Z60 Ilj<Zi6R3T[lk;2?aZml8g0
-Z61 V9@cEZeIW5bAlJPN2^6L2J1
+Z57 !s100 A@MgbT8gXl[eFcfV7Yh8Z3
+Z58 IL2>S^UKQ@f58cFP>?[n]l2
+Z59 V9@cEZeIW5bAlJPN2^6L2J1
 R4
 R5
 R6
 R7
-L0 39
+L0 38
 R9
 r1
 31
@@ -161,79 +163,80 @@ R10
 R11
 R12
 R13
-Z62 n@a@l@u_@top@level_@t@b
+Z60 n@a@l@u_@top@level_@t@b
 !i10b 1
 !s85 0
 !s101 -O0
 vData_Memory
-Z63 I`>TScei9S2n2ZAA;RB6XH0
-Z64 VagVo:3GgS^cnMlb3Fn4Ka1
+Z61 I>?<Wb=1Z`6bP<L`3ZMiQV3
+Z62 VagVo:3GgS^cnMlb3Fn4Ka1
 R4
-Z65 w1617310137
-Z66 FData_Memory.v
-Z67 8C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Memory.v
-Z68 FC:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Memory.v
-L0 3
+Z63 w1617614623
+Z64 FData_Memory.v
+Z65 8C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Memory.v
+Z66 FC:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Memory.v
+L0 2
 R9
 r1
 31
 R13
-Z69 n@data_@memory
+Z67 n@data_@memory
 !i10b 1
-Z70 !s100 JA<hgKE@>=SXmGBTH]C>93
+Z68 !s100 >aY5?ANb6G0]7AOgoR^m00
 !s85 0
-Z71 !s108 1617509856.982000
-Z72 !s107 Data_Memory.v|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Memory.v|
-Z73 !s90 -reportprogress|300|-work|work|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Memory.v|
+Z69 !s108 1617617343.363000
+Z70 !s107 Data_Memory.v|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Memory.v|
+Z71 !s90 -reportprogress|300|-work|work|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Memory.v|
 !s101 -O0
 vexec
-Z74 !s100 >YbSaf5CiB`KBeV^ffK^31
-Z75 Il7U875TQlhfiQHT50PSTH2
-Z76 V7ZOh>G[_e;?QBz4;mhN@Q1
+Z72 !s100 >YbSaf5CiB`KBeV^ffK^31
+Z73 Il7U875TQlhfiQHT50PSTH2
+Z74 V7ZOh>G[_e;?QBz4;mhN@Q1
 R4
-R36
-R38
-R39
+R43
+R20
+R21
 L0 4
 R9
 r1
 31
-R40
-R41
-R42
+R22
+R23
+R24
 R13
 !i10b 1
 !s85 0
 !s101 -O0
 vfullAdder
-Z77 Ig0jda2B;lYHef:Re]?[^b1
-Z78 VJhoQ@_Ei>GQaF=M^Plo_i2
+Z75 !s100 R;90odRc_X9PDK2P^X>fk3
+Z76 I0mRA9eAjSjoYkU^b<VS4E1
+Z77 VJhoQ@_Ei>GQaF=M^Plo_i2
 R4
-R5
-Z79 8C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Utility_Modules.v
-Z80 FC:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Utility_Modules.v
-L0 45
+Z78 w1617614517
+Z79 FUtility_Modules.v
+R20
+R21
+L0 44
 R9
 r1
 31
-Z81 !s108 1617509855.961000
-Z82 !s107 C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Utility_Modules.v|
-Z83 !s90 -reportprogress|300|-work|work|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Utility_Modules.v|
+R22
+R23
+R24
 R13
-Z84 nfull@adder
-Z85 !s100 mW?>Z=39XRE72NEE9fWCH3
+Z80 nfull@adder
 !i10b 1
 !s85 0
 !s101 -O0
 vfullAdder_TB
-Z86 !s100 CfHC]2aaF0760g:6VBgCH3
-Z87 IKbLP1?LbdF5L6jHT;n8MM3
-Z88 V:TCg@Ld]O4W8QSnLRCmgl2
+Z81 !s100 E[HfV>V@]XESXGiUbKYFh0
+Z82 Iaa3XFmG3gPzcA;P<QJ=zG2
+Z83 V:TCg@Ld]O4W8QSnLRCmgl2
 R4
 R5
 R6
 R7
-Z89 L0 193
+Z84 L0 192
 R9
 r1
 31
@@ -241,68 +244,68 @@ R10
 R11
 R12
 R13
-Z90 nfull@adder_@t@b
+Z85 nfull@adder_@t@b
 !i10b 1
 !s85 0
 !s101 -O0
 vID_and_RF
-Z91 !s100 `9ITKI;[92ELU89j?MelU0
-Z92 I_eGc>7FCPzF2@CGKmNOoJ0
-Z93 V@@<;l^>RiCRV_1^2_zSL_2
+Z86 !s100 J=XE<a7a4:K<c]eVjP4i93
+Z87 IeffjN0mlS?5fI2e[aFK8i2
+Z88 V@@<;l^>RiCRV_1^2_zSL_2
 R4
-Z94 w1617445573
-Z95 8C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ID_and_RF.v
-Z96 FC:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ID_and_RF.v
+Z89 w1617445573
+Z90 8C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ID_and_RF.v
+Z91 FC:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ID_and_RF.v
 L0 4
 R9
 r1
 31
-Z97 !s108 1617509856.670000
-Z98 !s107 Register_File.v|Sign_Extension.v|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ID_and_RF.v|
-Z99 !s90 -reportprogress|300|-work|work|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ID_and_RF.v|
+Z92 !s108 1617617342.978000
+Z93 !s107 Register_File.v|Sign_Extension.v|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ID_and_RF.v|
+Z94 !s90 -reportprogress|300|-work|work|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ID_and_RF.v|
 R13
-Z100 n@i@d_and_@r@f
+Z95 n@i@d_and_@r@f
 !i10b 1
 !s85 0
 !s101 -O0
 vIF_Testbench
-Z101 !s100 @78jIh`Nc]BKh6Ad7:iWF0
-Z102 I:Hejh5^8knfWY6JRGde9b1
-Z103 VBFj]G701Alo97<fNTXJ<@0
+Z96 IKj>6SW;Aj:Dc6[n[DR:l83
+Z97 VBFj]G701Alo97<fNTXJ<@0
 R4
-Z104 w1617509486
-Z105 8C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v
-Z106 FC:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v
-L0 4
+Z98 w1617617324
+Z99 8C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v
+Z100 FC:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v
+L0 3
 R9
 r1
 31
-Z107 !s108 1617509856.492000
-Z108 !s107 Instruction_Memory.v|ALU_64bit.v|Instruction_Fetch.v|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v|
-Z109 !s90 -reportprogress|300|-work|work|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v|
+Z101 !s108 1617617342.708000
+Z102 !s107 Instruction_Memory.v|Utility_Modules.v|ALU_1bit.v|ALU_64bit.v|Instruction_Fetch.v|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v|
+Z103 !s90 -reportprogress|300|-work|work|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v|
 R13
-Z110 n@i@f_@testbench
+Z104 n@i@f_@testbench
+Z105 !s100 ieneSUi0Ok=26A`GQmXdm3
 !i10b 1
 !s85 0
 !s101 -O0
 vInstruction_Fetch
-Z111 I?GDc3G4=N26Ud^3jk864>2
-Z112 VOdQPJ1_EX;_mX<fmbS1>92
+Z106 IIj:`Hm6jmJiY=FVCcO:413
+Z107 VOdQPJ1_EX;_mX<fmbS1>92
 R4
-Z113 w1617509496
-Z114 FInstruction_Fetch.v
-R105
-R106
-L0 5
+R98
+Z108 FInstruction_Fetch.v
+R99
+R100
+L0 4
 R9
 r1
 31
-R107
-R108
-R109
+R101
+R102
+R103
 R13
-Z115 n@instruction_@fetch
-Z116 !s100 VI_>f6N6P_8Q2mPEh_kAV2
+Z109 n@instruction_@fetch
+Z110 !s100 Jc0WB>X1>Pg@@WmnIb60I3
 !i10b 1
 !s85 0
 !s101 -O0
@@ -310,9 +313,9 @@ vInstruction_Memory
 !i10b 1
 !s100 jSNGg17NlZ1:DKX>1i5im1
 ImPYX3g=z@2hFVZ7BHFa5`1
-Z117 V1zijIiVg??NkAdOeF^;@Y3
+Z111 V1zijIiVg??NkAdOeF^;@Y3
 R4
-Z118 w1617509506
+w1617509506
 8C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Instruction_Memory.v
 FC:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Instruction_Memory.v
 L0 2
@@ -320,59 +323,61 @@ R9
 r1
 !s85 0
 31
-!s108 1617509857.123000
+!s108 1617617343.495000
 !s107 C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Instruction_Memory.v|
 !s90 -reportprogress|300|-work|work|C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Instruction_Memory.v|
 !s101 -O0
 R13
-Z119 n@instruction_@memory
+Z112 n@instruction_@memory
 vmux2to1
-Z120 I7fi_^bO06hF96A<SN_Ohd2
-Z121 Vme8]Td;UoLbTmGk3>4@:e3
+Z113 !s100 ;6_MdzH7AND@fIbG=`;N00
+Z114 IlQVmCl0ldX@=NG2jAzGkO1
+Z115 Vme8]Td;UoLbTmGk3>4@:e3
 R4
-R5
+R78
 R79
-R80
-L0 4
+R20
+R21
+L0 3
 R9
 r1
 31
-R81
-R82
-R83
+R22
+R23
+R24
 R13
-Z122 !s100 7<9Wb[>jF68oF]dFPKT]_2
 !i10b 1
 !s85 0
 !s101 -O0
 vmux4to1
-Z123 IeYSFH<1niHdYPj[<W<WRF0
-Z124 VWGYZOMHiMGYdlNl_cH2fK3
+Z116 !s100 2_i0X9HDO79YV1VGVFO>53
+Z117 IRYohU[?Z^dVL^=T1`1i^63
+Z118 VWGYZOMHiMGYdlNl_cH2fK3
 R4
-R5
+R78
 R79
-R80
-L0 26
+R20
+R21
+L0 25
 R9
 r1
 31
-R81
-R82
-R83
+R22
+R23
+R24
 R13
-Z125 !s100 eQ:F_T=lCkkHE`5^DW_bH3
 !i10b 1
 !s85 0
 !s101 -O0
 vmux4to1_TB
-Z126 !s100 SUi=[jU^0;B^CWH@2XOTI1
-Z127 I9B1`O2Na61^QEQUjAEK9i0
-Z128 V63<7BO3iVIoN=MzP?3f3h1
+Z119 !s100 ?VMFbD7GKIg=jFF8icQmE1
+Z120 I;3kH6d>H]1ijD[L]8>daf0
+Z121 V63<7BO3iVIoN=MzP?3f3h1
 R4
 R5
 R6
 R7
-Z129 L0 223
+Z122 L0 222
 R9
 r1
 31
@@ -380,59 +385,59 @@ R10
 R11
 R12
 R13
-Z130 nmux4to1_@t@b
+Z123 nmux4to1_@t@b
 !i10b 1
 !s85 0
 !s101 -O0
 vregfile
-Z131 I]B0DeIdoRh1Y^hnD@N`3j0
-Z132 Vabmka4Z8462PXOn2dJQ3O1
+Z124 IHS3JWZ`M6;b9<V_1NDZfN1
+Z125 Vabmka4Z8462PXOn2dJQ3O1
 R4
-R94
-Z133 FRegister_File.v
-R95
-R96
-L0 3
-R9
-r1
-31
-R97
-R98
-R99
-R13
-Z134 !s100 @>METVHF?l>kM7J[j:YhV3
-!i10b 1
-!s85 0
-!s101 -O0
-vsignextend
-Z135 Ifk=QWLhmYo4`0^V?4G2]L3
-Z136 VifNEhR`PVWgJ@]NlI>7^X3
-R4
-R94
-Z137 FSign_Extension.v
-R95
-R96
+Z126 w1617614640
+Z127 FRegister_File.v
+R90
+R91
 L0 2
 R9
 r1
 31
-R97
-R98
-R99
+R92
+R93
+R94
 R13
-Z138 !s100 biCO1@:fzjM=VT3za::gU3
+Z128 !s100 U3zo<_83ca@U3>m049fWG2
+!i10b 1
+!s85 0
+!s101 -O0
+vsignextend
+Z129 Ifk=QWLhmYo4`0^V?4G2]L3
+Z130 VifNEhR`PVWgJ@]NlI>7^X3
+R4
+R89
+Z131 FSign_Extension.v
+R90
+R91
+L0 2
+R9
+r1
+31
+R92
+R93
+R94
+R13
+Z132 !s100 biCO1@:fzjM=VT3za::gU3
 !i10b 1
 !s85 0
 !s101 -O0
 vsignextendtestbench
-Z139 !s100 @^K_gXG?FTW0aW2Q5d_CP0
-Z140 IMU@nO[l@EV=nA?@>Ag?0l1
-Z141 VVR81h5A@J8GkMdV@Jl;;z1
+Z133 !s100 @NaWGK7Df@[O9UAK]c8N>0
+Z134 IjSA`G0>FHW__mn21YNMbR2
+Z135 VVR81h5A@J8GkMdV@Jl;;z1
 R4
 R5
 R6
 R7
-L0 7
+L0 6
 R9
 r1
 31

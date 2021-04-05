@@ -1,4 +1,3 @@
-`timescale 1ns/1ps
 
 module regfile(clk, regWrite, readReg1, readReg2, writeReg, writeData, readData1, readData2);
    input clk, regWrite;

@@ -1,5 +1,4 @@
 `include "Instruction_Fetch.v"
-//`timescale 1ns/1ps
 
 module IF_Testbench();
   
@@ -31,7 +30,7 @@ module IF_Testbench();
     if(i%2)
     begin
 
-      #1 $display("\ni= %b, Concat= %b, select= %b, instruction= %b, clk= %b", i, concat, select, instruction, clk);
+      #1 $display("\nCycle number= %d, Branch address= %b, select= %b, instruction= %b, clk= %b", i>>1, branch, select, instruction, clk);
     end
     else
     begin

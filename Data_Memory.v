@@ -1,4 +1,3 @@
-//`timescale 1ns/1ps
 
 module Data_Memory(clk, MemRead, MemWrite, address, WriteData, ReadData);
 
