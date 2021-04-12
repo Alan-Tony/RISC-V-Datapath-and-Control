@@ -1,6 +1,34 @@
 //`include "ALU_1bit.v"  //Utility Modules are already included in ALU.v
 `include "ALU_64bit.v"
 `include "Sign_Extension.v"
+`include "Register_File.v"
+
+//Testbench for Register File
+module Register_File_TB();
+
+  reg clk = 1'b0;
+  wire [63:0] readData1, readData2;
+
+
+  regfile rf0(
+  .clk (clk),
+  .regWrite (1'b0), 
+  .readReg1 (5'b0), 
+  .readReg2 (5'b1), 
+  .writeReg (5'b0) , 
+  .writeData (64'b0), 
+  .readData1 (readData1), 
+  .readData2 (readData2));
+
+  initial begin
+    
+    #5 clk = ~clk;
+    #5 clk = ~clk;
+    #5 $display("\nData 1= %b, Data 2= %b", readData1, readData2);
+
+  end
+
+endmodule
 
 //Test bench for sign extension
 module signextendtestbench();

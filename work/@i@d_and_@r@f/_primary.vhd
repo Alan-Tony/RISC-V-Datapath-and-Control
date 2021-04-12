@@ -3,6 +3,7 @@ use verilog.vl_types.all;
 entity ID_and_RF is
     port(
         clk             : in     vl_logic;
+        reset_receive   : in     vl_logic;
         pc_recieve      : in     vl_logic_vector(63 downto 0);
         instruction_recieve: in     vl_logic_vector(31 downto 0);
         writeData_recieve: in     vl_logic_vector(63 downto 0);

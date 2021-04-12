@@ -1,10 +1,10 @@
 
-module regfile(clk, regWrite, readReg1, readReg2, writeReg, writeData, readData1, readData2);
-   input clk, regWrite;
+module regfile(clk, reset, regWrite, readReg1, readReg2, writeReg, writeData, readData1, readData2);
+   input clk, regWrite, reset;
    input [4:0] readReg1, readReg2, writeReg;
-   input [31:0] writeData;
-   output reg [31:0] readData1, readData2;
-   reg [31:0] regFile[0:31];
+   input [63:0] writeData;
+   output reg [63:0] readData1, readData2;
+   reg [63:0] regFile[0:31];
    
    //Initializing the registers
    integer i;
@@ -12,7 +12,7 @@ module regfile(clk, regWrite, readReg1, readReg2, writeReg, writeData, readData1
    begin     
      for(i=0; i<32; i= i+1)
      begin
-        regFile[i] = 32'b0;     
+        regFile[i] = i;     
      end     
    end
 
@@ -20,17 +20,18 @@ module regfile(clk, regWrite, readReg1, readReg2, writeReg, writeData, readData1
    begin
         if(regWrite == 1) 
         begin
-          #1 regFile[writeReg] <= writeData;
+          regFile[writeReg] = writeData;
         end
    end
         
    //Read data
    always @(negedge clk) 
    begin
-        if(regWrite == 0) 
+        if(regWrite == 0 && reset == 0) 
         begin
-           #1 readData1 = regFile[readReg1];
-           #1 readData2 = regFile[readReg2];
+           $display("\nEntered at neg edge");
+           readData1 = regFile[readReg1];
+           readData2 = regFile[readReg2];
         end
    end
    
