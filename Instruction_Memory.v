@@ -13,8 +13,8 @@ module Instruction_Memory(instruction, address);
 
     always @(address)
     begin
+        //$display("Address= %b", address);
         instruction = instructionMemory[address];
-        #1 $display("instruction fetched- %b, address- %d", instruction, address); 
     end
 
 endmodule
