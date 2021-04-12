@@ -1,42 +1,35 @@
-{C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/testbenches.v} {1 {vlog -work work {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/testbenches.v}
+{C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ALU_CU.v} {1 {vlog -work work {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ALU_CU.v}
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
--- Compiling module ALU_64bit
--- Compiling module signextend
--- Compiling module signextendtestbench
--- Compiling module ALU_TopLevel_TB
--- Compiling module ALU_1b_MSB_TB
--- Compiling module ALU_1b_Ordinary_TB
--- Compiling module fullAdder_TB
--- Compiling module mux4to1_TB
+-- Compiling module ALU_CU
 
 Top level modules:
-	signextendtestbench
-	ALU_TopLevel_TB
-	ALU_1b_MSB_TB
-	ALU_1b_Ordinary_TB
-	fullAdder_TB
-	mux4to1_TB
+	ALU_CU
 
-} {} {}} {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Utility_Modules.v} {1 {vlog -work work {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Utility_Modules.v}
+} {} {}} {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Memory.v} {0 {vlog -work work {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Memory.v}
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
--- Compiling module mux2to1
--- Compiling module mux4to1
--- Compiling module fullAdder
+-- Compiling module Data_Memory
+-- Compiling module Memory
+** Error: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Memory.v(5): near "input": syntax error, unexpected input, expecting ';'
 
-Top level modules:
-	mux4to1
-	fullAdder
-
-} {} {}} {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ALU_1bit.v} {1 {vlog -work work {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ALU_1bit.v}
+} {5.0 6.0} {}} {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v} {1 {vlog -work work {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v}
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
 -- Compiling module mux2to1
 -- Compiling module mux4to1
 -- Compiling module fullAdder
 -- Compiling module ALU_1b_Ordinary
 -- Compiling module ALU_1bit_MSB
+-- Compiling module ALU_64bit
+-- Compiling module ALU_CU
+-- Compiling module exec
 
 Top level modules:
-	ALU_1b_Ordinary
-	ALU_1bit_MSB
+	exec
+
+} {} {}} {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Sign_Extension.v} {1 {vlog -work work {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Sign_Extension.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module signextend
+
+Top level modules:
+	signextend
 
 } {} {}}
