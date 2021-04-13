@@ -1,7 +1,7 @@
 
-module Data_Memory(clk, MemRead, MemWrite, address, WriteData, ReadData);
+module Data_Memory(clk, MemRead, MemWrite, Address, WriteData, ReadData);
 
-    input [63:0] address;
+    input [63:0] Address;
     input [63:0] WriteData;
     input MemRead, MemWrite, clk;
     
@@ -10,7 +10,7 @@ module Data_Memory(clk, MemRead, MemWrite, address, WriteData, ReadData);
 
     initial
     begin
-        ReadData = 64'bz;
+        ReadData = 64'b0;
         $readmemb("data.mem", dataMemory);    //Loading instructions from text file
     end
 
@@ -19,9 +19,9 @@ module Data_Memory(clk, MemRead, MemWrite, address, WriteData, ReadData);
         
         if(MemWrite ^ MemRead)  //Both read and write cannot happen at the same time
         begin
-          if(MemWrite) #1 dataMemory[address] = WriteData;
+          if(MemWrite) dataMemory[Address] = WriteData;
         
-          if(MemRead) #1 ReadData = dataMemory[address];
+          if(MemRead) ReadData = dataMemory[Address];
         end
     end
 

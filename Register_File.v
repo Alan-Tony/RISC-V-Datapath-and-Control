@@ -27,7 +27,7 @@ module regfile(clk, reset, regWrite, readReg1, readReg2, writeReg, writeData, re
    //Read data
    always @(negedge clk) 
    begin
-        if(regWrite == 0 && reset == 0) 
+        if(reset == 0) 
         begin
            $display("\nEntered at neg edge");
            readData1 = regFile[readReg1];
