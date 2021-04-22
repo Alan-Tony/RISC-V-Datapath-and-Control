@@ -1,2 +1,2165 @@
-# Reading C:/Other_Programs/altera/12.1sp1/modelsim_ase/tcl/vsim/pref.tcl 
-# OpenFile {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V_64-bit_ALU/ALU_1bit.v} 
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v failed with 2 errors.
+# Compile of Instruction_Memory.v was successful.
+# 14 compiles, 1 failed with 2 errors. 
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v failed with 1 errors.
+# Compile of Instruction_Memory.v was successful.
+# 14 compiles, 1 failed with 1 error. 
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# 14 compiles, 0 failed with no errors. 
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v failed with 3 errors.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v failed with 1 errors.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# 14 compiles, 2 failed with 4 errors. 
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful with warnings.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v failed with 1 errors.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# 14 compiles, 1 failed with 1 error. 
+vsim -voptargs=+acc work.Data_Memory_TB
+# vsim -voptargs=+acc work.Data_Memory_TB 
+# Loading work.Data_Memory_TB
+# Loading work.Data_Memory
+run
+# 
+# Address= 0000000000000000000000000000000000000000000000000000000000000000, Read data = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful with warnings.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v failed with 1 errors.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# 14 compiles, 1 failed with 1 error. 
+vsim -voptargs=+acc work.Data_Memory_TB
+# vsim -voptargs=+acc work.Data_Memory_TB 
+# Loading work.Data_Memory_TB
+# Loading work.Data_Memory
+add wave -position end  sim:/Data_Memory_TB/clk
+add wave -position end  sim:/Data_Memory_TB/MemRead
+add wave -position end  sim:/Data_Memory_TB/MemWrite
+add wave -position end  sim:/Data_Memory_TB/address
+add wave -position end  sim:/Data_Memory_TB/WriteData
+add wave -position end  sim:/Data_Memory_TB/ReadData
+run
+# 
+# Address= 0000000000000000000000000000000000000000000000000000000000000000, Read data = 0000000000000000000000000000000000000000000000000000000000000000
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v failed with 1 errors.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v failed with 1 errors.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# 14 compiles, 2 failed with 2 errors. 
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful with warnings.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v failed with 1 errors.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# 14 compiles, 1 failed with 1 error. 
+vsim -voptargs=+acc work.Data_Memory_TB
+# vsim -voptargs=+acc work.Data_Memory_TB 
+# Loading work.Data_Memory_TB
+# Loading work.Data_Memory
+add wave -position end  sim:/Data_Memory_TB/clk
+add wave -position end  sim:/Data_Memory_TB/MemRead
+add wave -position end  sim:/Data_Memory_TB/MemWrite
+add wave -position end  sim:/Data_Memory_TB/address
+add wave -position end  sim:/Data_Memory_TB/WriteData
+add wave -position end  sim:/Data_Memory_TB/ReadData
+run
+# 
+# Address= 0000000000000000000000000000000000000000000000000000000000000010, Read data = 0000000000000000000000000000000000000000000000000000000000000100
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful with warnings.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v failed with 1 errors.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# 14 compiles, 1 failed with 1 error. 
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful with warnings.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# 14 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.Memory_TB
+# vsim -voptargs=+acc work.Memory_TB 
+# Loading work.Memory_TB
+# Loading work.Memory
+# Loading work.Data_Memory
+# ** Error: (vsim-3063) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Memory.v(51): Port 'Address' not found in the connected module (4th connection).
+# 
+#         Region: /Memory_TB/M0/DM
+# Error loading design
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful with warnings.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# 14 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.Memory_TB
+# vsim -voptargs=+acc work.Memory_TB 
+# Loading work.Memory_TB
+# Loading work.Memory
+# Loading work.Data_Memory
+run
+# 
+# read data= zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz, pc src = zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+# pcbranch= 0000000000000000000000000000000000000000000000000000000000001100, memtoreg = 0
+# result = result                   5
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful with warnings.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# 14 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.Memory_TB
+# vsim -voptargs=+acc work.Memory_TB 
+# Loading work.Memory_TB
+# Loading work.Memory
+# Loading work.Data_Memory
+run
+# 
+# read data= zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz, pc src = zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+# pcbranch= 0000000000000000000000000000000000000000000000000000000000001100, memtoreg = 0
+# result = 0000000000000000000000000000000000000000000000000000000000000101
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful with warnings.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# 14 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.Memory_TB
+# vsim -voptargs=+acc work.Memory_TB 
+# Loading work.Memory_TB
+# Loading work.Memory
+# Loading work.Data_Memory
+run
+# 
+# read data= zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz, pc src = zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+# pcbranch= 0000000000000000000000000000000000000000000000000000000000001100, memtoreg = 0
+# result = 0000000000000000000000000000000000000000000000000000000000000101
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful with warnings.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# 14 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.Memory_TB
+# vsim -voptargs=+acc work.Memory_TB 
+# Loading work.Memory_TB
+# Loading work.Memory
+# Loading work.Data_Memory
+run
+# 
+# read data= zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz, pc src = 0
+# pcbranch= 0000000000000000000000000000000000000000000000000000000000001100, memtoreg = 0
+# result = 0000000000000000000000000000000000000000000000000000000000000101
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful with warnings.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# 14 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.Memory_TB
+# vsim -voptargs=+acc work.Memory_TB 
+# Loading work.Memory_TB
+# Loading work.Memory
+# Loading work.Data_Memory
+run
+# 
+# read data= 0000000000000000000000000000000000000000000000000000000000000000, pc src = 0
+# pcbranch= 0000000000000000000000000000000000000000000000000000000000001100, memtoreg = 0
+# result = 0000000000000000000000000000000000000000000000000000000000000101
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful with warnings.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# 14 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.Memory_TB
+# vsim -voptargs=+acc work.Memory_TB 
+# Loading work.Memory_TB
+# Loading work.Memory
+# Loading work.Data_Memory
+run
+# 
+# read data= 0000000000000000000000000000000000000000000000000000000000100000, pc src = 0
+# pcbranch= 0000000000000000000000000000000000000000000000000000000000001100, memtoreg = 0
+# result = 0000000000000000000000000000000000000000000000000000000000000101
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# 14 compiles, 0 failed with no errors. 
+# Compile of Control_Unit.v failed with 3 errors.
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v failed with 3 errors.
+# 15 compiles, 1 failed with 3 errors. 
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v failed with 1 errors.
+# 15 compiles, 1 failed with 1 error. 
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+# Compile of Stage_Testbenches.v was successful with warnings.
+vsim -voptargs=+acc work.exec_tb
+# vsim -voptargs=+acc work.exec_tb 
+# Loading work.exec_tb
+# Loading work.exec
+# Loading work.ALU_64bit
+# Loading work.ALU_1b_Ordinary
+# Loading work.mux2to1
+# Loading work.mux4to1
+# Loading work.fullAdder
+# Loading work.ALU_1bit_MSB
+# Loading work.ALU_CU
+# ** Warning: (vsim-3015) Execution.v(57): [PCDPC] - Port size (64 or 64) does not match connection size (1) for port 'A'. The port definition is at: ALU_64bit.v(3).
+# 
+#         Region: /exec_tb/execTB/ALU1
+# ** Warning: (vsim-3015) Execution.v(57): [PCDPC] - Port size (64 or 64) does not match connection size (1) for port 'Result'. The port definition is at: ALU_64bit.v(3).
+# 
+#         Region: /exec_tb/execTB/ALU1
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.exec_tb
+# vsim -voptargs=+acc work.exec_tb 
+# Loading work.exec_tb
+# Loading work.exec
+# Loading work.ALU_64bit
+# Loading work.ALU_1b_Ordinary
+# Loading work.mux2to1
+# Loading work.mux4to1
+# Loading work.fullAdder
+# Loading work.ALU_1bit_MSB
+# Loading work.ALU_CU
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(57): [PCDPC] - Port size (64 or 64) does not match connection size (1) for port 'A'. The port definition is at: ALU_64bit.v(3).
+# 
+#         Region: /exec_tb/execTB/ALU1
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(57): [PCDPC] - Port size (64 or 64) does not match connection size (1) for port 'Result'. The port definition is at: ALU_64bit.v(3).
+# 
+#         Region: /exec_tb/execTB/ALU1
+run
+# 
+# CU outputs are Mem_write=z ,Mem_to_reg=1 , Read memory=1
+# 
+# ALU outputs are pc branch=x ,Result=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx , Zero=z & read data from 2= 000000000000000000000000000000000000000000000000000000000000000x
+# 
+# CU outputs are Mem_write=z ,Mem_to_reg=1 , Read memory=1
+# 
+# ALU outputs are pc branch=x ,Result=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx , Zero=z & read data from 2= 000000000000000000000000000000000000000000000000000000000000000x
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v failed with 1 errors.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 1 failed with 1 error. 
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.exec_tb
+# vsim -voptargs=+acc work.exec_tb 
+# Loading work.exec_tb
+# Loading work.exec
+# Loading work.ALU_64bit
+# Loading work.ALU_1b_Ordinary
+# Loading work.mux2to1
+# Loading work.mux4to1
+# Loading work.fullAdder
+# Loading work.ALU_1bit_MSB
+# Loading work.ALU_CU
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(50): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'pc_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(7).
+# 
+#         Region: /exec_tb/exec0
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(50): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'extended_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(7).
+# 
+#         Region: /exec_tb/exec0
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(50): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'read_data_1_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(8).
+# 
+#         Region: /exec_tb/exec0
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(50): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'read_data_2_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(8).
+# 
+#         Region: /exec_tb/exec0
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(59): [PCDPC] - Port size (64 or 64) does not match connection size (1) for port 'A'. The port definition is at: ALU_64bit.v(3).
+# 
+#         Region: /exec_tb/exec0/ALU1
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(59): [PCDPC] - Port size (64 or 64) does not match connection size (1) for port 'Result'. The port definition is at: ALU_64bit.v(3).
+# 
+#         Region: /exec_tb/exec0/ALU1
+run
+# 
+# ALU outputs are pc branch=0 ,Result=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx , Zero=z & read data from 2= 0000000000000000000000000000000000000000000000000000000000000001
+run
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.exec_tb
+# vsim -voptargs=+acc work.exec_tb 
+# Loading work.exec_tb
+# Loading work.exec
+# Loading work.ALU_64bit
+# Loading work.ALU_1b_Ordinary
+# Loading work.mux2to1
+# Loading work.mux4to1
+# Loading work.fullAdder
+# Loading work.ALU_1bit_MSB
+# Loading work.ALU_CU
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(50): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'pc_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(7).
+# 
+#         Region: /exec_tb/exec0
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(50): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'extended_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(7).
+# 
+#         Region: /exec_tb/exec0
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(50): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'read_data_1_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(8).
+# 
+#         Region: /exec_tb/exec0
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(50): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'read_data_2_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(8).
+# 
+#         Region: /exec_tb/exec0
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(59): [PCDPC] - Port size (64 or 64) does not match connection size (1) for port 'A'. The port definition is at: ALU_64bit.v(3).
+# 
+#         Region: /exec_tb/exec0/ALU1
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(59): [PCDPC] - Port size (64 or 64) does not match connection size (1) for port 'Result'. The port definition is at: ALU_64bit.v(3).
+# 
+#         Region: /exec_tb/exec0/ALU1
+run
+# 
+# ALU outputs are pc branch=0 ,Result=0000000000000000000000000000000000000000000000000000000000000010 , Zero=0 & read data 2= 0000000000000000000000000000000000000000000000000000000000000001
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.exec_tb
+# vsim -voptargs=+acc work.exec_tb 
+# Loading work.exec_tb
+# Loading work.exec
+# Loading work.ALU_64bit
+# Loading work.ALU_1b_Ordinary
+# Loading work.mux2to1
+# Loading work.mux4to1
+# Loading work.fullAdder
+# Loading work.ALU_1bit_MSB
+# Loading work.ALU_CU
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(50): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'pc_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(7).
+# 
+#         Region: /exec_tb/exec0
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(50): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'extended_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(7).
+# 
+#         Region: /exec_tb/exec0
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(50): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'pcbranch'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(7).
+# 
+#         Region: /exec_tb/exec0
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(50): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'read_data_1_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(8).
+# 
+#         Region: /exec_tb/exec0
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(50): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'read_data_2_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(8).
+# 
+#         Region: /exec_tb/exec0
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(59): [PCDPC] - Port size (64 or 64) does not match connection size (1) for port 'A'. The port definition is at: ALU_64bit.v(3).
+# 
+#         Region: /exec_tb/exec0/ALU1
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(59): [PCDPC] - Port size (64 or 64) does not match connection size (1) for port 'Result'. The port definition is at: ALU_64bit.v(3).
+# 
+#         Region: /exec_tb/exec0/ALU1
+run
+# 
+# Execution outputs :- pcbranch= zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz0, Result=0000000000000000000000000000000000000000000000000000000000000010 , Zero= 0, read data 2= 0000000000000000000000000000000000000000000000000000000000000001
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.exec_tb
+# vsim -voptargs=+acc work.exec_tb 
+# Loading work.exec_tb
+# Loading work.exec
+# Loading work.ALU_64bit
+# Loading work.ALU_1b_Ordinary
+# Loading work.mux2to1
+# Loading work.mux4to1
+# Loading work.fullAdder
+# Loading work.ALU_1bit_MSB
+# Loading work.ALU_CU
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(50): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'read_data_1_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(8).
+# 
+#         Region: /exec_tb/exec0
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(50): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'read_data_2_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(8).
+# 
+#         Region: /exec_tb/exec0
+run
+# 
+# Execution outputs :- pcbranch= 0000000000000000000000000000000000000000000000000000000000110000, Result=0000000000000000000000000000000000000000000000000000000000000010,
+#  Zero= 0, read data 2= 0000000000000000000000000000000000000000000000000000000000000001
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v failed with 1 errors.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 1 failed with 1 error. 
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.exec_tb
+# vsim -voptargs=+acc work.exec_tb 
+# Loading work.exec_tb
+# Loading work.exec
+# Loading work.ALU_64bit
+# Loading work.ALU_1b_Ordinary
+# Loading work.mux2to1
+# Loading work.mux4to1
+# Loading work.fullAdder
+# Loading work.ALU_1bit_MSB
+# Loading work.ALU_CU
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(50): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'read_data_1_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(8).
+# 
+#         Region: /exec_tb/exec0
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(50): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'read_data_2_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(8).
+# 
+#         Region: /exec_tb/exec0
+run
+# 
+#  read data 2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# 
+# Execution outputs :- pcbranch= 0000000000000000000000000000000000000000000000000000000000110000, Result=0000000000000000000000000000000000000000000000000000000000000010,
+#  Zero= 0, read data 2= 0000000000000000000000000000000000000000000000000000000000000001
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.exec_tb
+# vsim -voptargs=+acc work.exec_tb 
+# Loading work.exec_tb
+# Loading work.exec
+# Loading work.ALU_64bit
+# Loading work.ALU_1b_Ordinary
+# Loading work.mux2to1
+# Loading work.mux4to1
+# Loading work.fullAdder
+# Loading work.ALU_1bit_MSB
+# Loading work.ALU_CU
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(51): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'read_data_1_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(8).
+# 
+#         Region: /exec_tb/exec0
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(51): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'read_data_2_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(8).
+# 
+#         Region: /exec_tb/exec0
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(51): [PCDPC] - Port size (4 or 4) does not match connection size (64) for port 'Operation'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(10).
+# 
+#         Region: /exec_tb/exec0
+run
+# 
+#  read data 2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# 
+# Execution outputs :- pcbranch= 0000000000000000000000000000000000000000000000000000000000110000, Result=0000000000000000000000000000000000000000000000000000000000000010,
+#  Zero= 0, read data 2= 0000000000000000000000000000000000000000000000000000000000000001, Operation= zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz0010
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.exec_tb
+# vsim -voptargs=+acc work.exec_tb 
+# Loading work.exec_tb
+# Loading work.exec
+# Loading work.ALU_64bit
+# Loading work.ALU_1b_Ordinary
+# Loading work.mux2to1
+# Loading work.mux4to1
+# Loading work.fullAdder
+# Loading work.ALU_1bit_MSB
+# Loading work.ALU_CU
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(51): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'read_data_1_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(8).
+# 
+#         Region: /exec_tb/exec0
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(51): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'read_data_2_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(8).
+# 
+#         Region: /exec_tb/exec0
+run
+# 
+#  read data 2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# 
+# Execution outputs :- pcbranch= 0000000000000000000000000000000000000000000000000000000000110000, Result=0000000000000000000000000000000000000000000000000000000000000010,
+#  Zero= 0, read data 2= 0000000000000000000000000000000000000000000000000000000000000001, Operation= 0010
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.exec_tb
+# vsim -voptargs=+acc work.exec_tb 
+# Loading work.exec_tb
+# Loading work.exec
+# Loading work.ALU_64bit
+# Loading work.ALU_1b_Ordinary
+# Loading work.mux2to1
+# Loading work.mux4to1
+# Loading work.fullAdder
+# Loading work.ALU_1bit_MSB
+# Loading work.ALU_CU
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(51): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'read_data_1_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(8).
+# 
+#         Region: /exec_tb/exec0
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(51): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'read_data_2_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(8).
+# 
+#         Region: /exec_tb/exec0
+run
+# 
+#  read data 2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# 
+# Execution outputs :- pcbranch= 0000000000000000000000000000000000000000000000000000000000110000, Result=0000000000000000000000000000000000000000000000000000000000000010,
+#  Zero= 0, read data 2= 0000000000000000000000000000000000000000000000000000000000000001, read_data_1= 0000000000000000000000000000000000000000000000000000000000000001
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.exec_tb
+# vsim -voptargs=+acc work.exec_tb 
+# Loading work.exec_tb
+# Loading work.exec
+# Loading work.ALU_64bit
+# Loading work.ALU_1b_Ordinary
+# Loading work.mux2to1
+# Loading work.mux4to1
+# Loading work.fullAdder
+# Loading work.ALU_1bit_MSB
+# Loading work.ALU_CU
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(51): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'read_data_1_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(8).
+# 
+#         Region: /exec_tb/exec0
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(51): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'read_data_2_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(8).
+# 
+#         Region: /exec_tb/exec0
+run
+# 
+#  read data 2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# 
+# read data 1 received= 1, read data 2 received= 1
+# 
+# Execution outputs :- pcbranch= 0000000000000000000000000000000000000000000000000000000000110000, Result=0000000000000000000000000000000000000000000000000000000000000010,
+#  Zero= 0, read data 2= 0000000000000000000000000000000000000000000000000000000000000001, read_data_1= 0000000000000000000000000000000000000000000000000000000000000001
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.exec_tb
+# vsim -voptargs=+acc work.exec_tb 
+# Loading work.exec_tb
+# Loading work.exec
+# Loading work.ALU_64bit
+# Loading work.ALU_1b_Ordinary
+# Loading work.mux2to1
+# Loading work.mux4to1
+# Loading work.fullAdder
+# Loading work.ALU_1bit_MSB
+# Loading work.ALU_CU
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(51): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'read_data_1_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(8).
+# 
+#         Region: /exec_tb/exec0
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(51): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'read_data_2_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(8).
+# 
+#         Region: /exec_tb/exec0
+run
+# 
+#  read data 2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# 
+# Execution outputs :- pcbranch= 0000000000000000000000000000000000000000000000000000000000110000, Result=0000000000000000000000000000000000000000000000000000000000000000,
+#  Zero= 1, read data 2= 0000000000000000000000000000000000000000000000000000000000000000, read_data_1= 0000000000000000000000000000000000000000000000000000000000000000
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.exec_tb
+# vsim -voptargs=+acc work.exec_tb 
+# Loading work.exec_tb
+# Loading work.exec
+# Loading work.ALU_64bit
+# Loading work.ALU_1b_Ordinary
+# Loading work.mux2to1
+# Loading work.mux4to1
+# Loading work.fullAdder
+# Loading work.ALU_1bit_MSB
+# Loading work.ALU_CU
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(51): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'read_data_1_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(8).
+# 
+#         Region: /exec_tb/exec0
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(51): [PCDPC] - Port size (1 or 1) does not match connection size (64) for port 'read_data_2_recieve'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Execution.v(8).
+# 
+#         Region: /exec_tb/exec0
+run
+# 
+#  read data 2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# 
+# read data 1 received= 0, read data 2 received= 0
+# 
+# Execution outputs :- pcbranch= 0000000000000000000000000000000000000000000000000000000000110000, Result=0000000000000000000000000000000000000000000000000000000000000000,
+#  Zero= 1, read_data_1= 0000000000000000000000000000000000000000000000000000000000000000
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.exec_tb
+# vsim -voptargs=+acc work.exec_tb 
+# Loading work.exec_tb
+# Loading work.exec
+# Loading work.ALU_64bit
+# Loading work.ALU_1b_Ordinary
+# Loading work.mux2to1
+# Loading work.mux4to1
+# Loading work.fullAdder
+# Loading work.ALU_1bit_MSB
+# Loading work.ALU_CU
+run
+# 
+#  read data 2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# 
+# read data 1 received= 0000000000000000000000000000000000000000000000000000000000010000, read data 2 received= 0000000000000000000000000000000000000000000000000000000000000100
+# 
+# Execution outputs :- pcbranch= 0000000000000000000000000000000000000000000000000000000000110000, Result=0000000000000000000000000000000000000000000000000000000000010100,
+#  Zero= 0, read_data_1= 0000000000000000000000000000000000000000000000000000000000010000
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.exec_tb
+# vsim -voptargs=+acc work.exec_tb 
+# Loading work.exec_tb
+# Loading work.exec
+# Loading work.ALU_64bit
+# Loading work.ALU_1b_Ordinary
+# Loading work.mux2to1
+# Loading work.mux4to1
+# Loading work.fullAdder
+# Loading work.ALU_1bit_MSB
+# Loading work.ALU_CU
+run
+# 
+#  read data 2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# 
+# read data 1 received= 0000000000000000000000000000000000000000000000000000000000000011, read data 2 received= 0000000000000000000000000000000000000000000000000000000000000101
+# 
+# Execution outputs :- pcbranch= 0000000000000000000000000000000000000000000000000000000000110000, Result=0000000000000000000000000000000000000000000000000000000000001000,
+#  Zero= 0, read data 2 = 0000000000000000000000000000000000000000000000000000000000000101
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.exec_tb
+# vsim -voptargs=+acc work.exec_tb 
+# Loading work.exec_tb
+# Loading work.exec
+# Loading work.ALU_64bit
+# Loading work.ALU_1b_Ordinary
+# Loading work.mux2to1
+# Loading work.mux4to1
+# Loading work.fullAdder
+# Loading work.ALU_1bit_MSB
+# Loading work.ALU_CU
+run
+# 
+#  read data 2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# 
+# read data 1 received= 0000000000000000000000000000000000000000000000000000000000000011, read data 2 received= 0000000000000000000000000000000000000000000000000000000000000101
+# 
+# Execution outputs :- pcbranch= 0000000000000000000000000000000000000000000000000000000000110000, Result=0000000000000000000000000000000000000000000000000000000000001000,
+#  Zero= 0, read data 2 = 0000000000000000000000000000000000000000000000000000000000000101
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.exec_tb
+# vsim -voptargs=+acc work.exec_tb 
+# Loading work.exec_tb
+# Loading work.exec
+# Loading work.ALU_64bit
+# Loading work.ALU_1b_Ordinary
+# Loading work.mux2to1
+# Loading work.mux4to1
+# Loading work.fullAdder
+# Loading work.ALU_1bit_MSB
+# Loading work.ALU_CU
+run
+# 
+#  read data 2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# 
+# read data 1 received= 0000000000000000000000000000000000000000000000000000000000000011, read data 2 received= 0000000000000000000000000000000000000000000000000000000000000101
+# 
+# Execution outputs :- pcbranch= 0000000000000000000000000000000000000000000000000000000000110000, Result=0000000000000000000000000000000000000000000000000000000000001111,
+#  Zero= 0, read data 2 = 0000000000000000000000000000000000000000000000000000000000000101
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.ID_and_RF_TB
+# vsim -voptargs=+acc work.ID_and_RF_TB 
+# Loading work.ID_and_RF_TB
+# Loading work.ID_and_RF
+# Loading work.control_unit
+# Loading work.regfile
+# Loading work.signextend
+# ** Warning: (vsim-3017) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(126): [TFMPC] - Too few port connections. Expected 18, found 16.
+# 
+#         Region: /ID_and_RF_TB/IDRF
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(126): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'reset_receive'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ID_and_RF.v(5).
+# 
+#         Region: /ID_and_RF_TB/IDRF
+# ** Warning: (vsim-3722) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(126): [TFMPC] - Missing connection for port 'regWrite_receive'.
+# 
+# ** Warning: (vsim-3722) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(126): [TFMPC] - Missing connection for port 'regWrite_out'.
+# 
+run
+# 
+# Func = 0000, Extended = 0000000000000000000000000000000000000000000000000000010000001000,
+# read_data_1 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, read_data_2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, pc = 0000000000000000000000000000000000000000000000000000000000000001
+# 
+# Func = 0000, Extended = 0000000000000000000000000000000000000000000000000000010000001000,
+# read_data_1 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, read_data_2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, pc = 0000000000000000000000000000000000000000000000000000000000000001
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.ID_and_RF_TB
+# vsim -voptargs=+acc work.ID_and_RF_TB 
+# Loading work.ID_and_RF_TB
+# Loading work.ID_and_RF
+# Loading work.control_unit
+# Loading work.regfile
+# Loading work.signextend
+# ** Warning: (vsim-3017) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(126): [TFMPC] - Too few port connections. Expected 18, found 16.
+# 
+#         Region: /ID_and_RF_TB/IDRF
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(126): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'reset_receive'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ID_and_RF.v(5).
+# 
+#         Region: /ID_and_RF_TB/IDRF
+# ** Warning: (vsim-3722) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(126): [TFMPC] - Missing connection for port 'regWrite_receive'.
+# 
+# ** Warning: (vsim-3722) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(126): [TFMPC] - Missing connection for port 'regWrite_out'.
+# 
+run
+# 
+# Func = 0000, Extended = 0000000000000000000000000000000000000000000000000000010000001000,
+# read_data_1 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, read_data_2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, pc = 0000000000000000000000000000000000000000000000000000000000000001
+# 
+# Func = 0000, Extended = 0000000000000000000000000000000000000000000000000000010000001000,
+# read_data_1 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, read_data_2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, pc = 0000000000000000000000000000000000000000000000000000000000000001
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.ID_and_RF_TB
+# vsim -voptargs=+acc work.ID_and_RF_TB 
+# Loading work.ID_and_RF_TB
+# Loading work.ID_and_RF
+# Loading work.control_unit
+# Loading work.regfile
+# Loading work.signextend
+# ** Warning: (vsim-3017) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(126): [TFMPC] - Too few port connections. Expected 18, found 16.
+# 
+#         Region: /ID_and_RF_TB/IDRF
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(126): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'reset_receive'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ID_and_RF.v(5).
+# 
+#         Region: /ID_and_RF_TB/IDRF
+# ** Warning: (vsim-3722) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(126): [TFMPC] - Missing connection for port 'regWrite_receive'.
+# 
+# ** Warning: (vsim-3722) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(126): [TFMPC] - Missing connection for port 'regWrite_out'.
+# 
+run
+# 
+# Func = 0000, Extended = 0000000000000000000000000000000000000000000000000000010000001000,
+# read_data_1 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, read_data_2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, pc = 0000000000000000000000000000000000000000000000000000000000000001
+# 
+# Func = 0000, Extended = 0000000000000000000000000000000000000000000000000000010000001000,
+# read_data_1 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, read_data_2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, pc = 0000000000000000000000000000000000000000000000000000000000000001
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.ID_and_RF_TB
+# vsim -voptargs=+acc work.ID_and_RF_TB 
+# Loading work.ID_and_RF_TB
+# Loading work.ID_and_RF
+# Loading work.control_unit
+# Loading work.regfile
+# Loading work.signextend
+# ** Warning: (vsim-3017) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(129): [TFMPC] - Too few port connections. Expected 18, found 16.
+# 
+#         Region: /ID_and_RF_TB/IDRF
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(129): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'reset_receive'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ID_and_RF.v(5).
+# 
+#         Region: /ID_and_RF_TB/IDRF
+# ** Warning: (vsim-3722) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(129): [TFMPC] - Missing connection for port 'regWrite_receive'.
+# 
+# ** Warning: (vsim-3722) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(129): [TFMPC] - Missing connection for port 'regWrite_out'.
+# 
+run
+# 
+# Func = 0000, Extended = 0000000000000000000000000000000000000000000000000000010000001000,
+# read_data_1 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, read_data_2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, pc = 0000000000000000000000000000000000000000000000000000000000000001
+# 
+# Entered at neg edge
+# 
+# Func = 0000, Extended = 0000000000000000000000000000000000000000000000000000010000001000,
+# read_data_1 = 0000000000000000000000000000000000000000000000000000000000000011, read_data_2 = 0000000000000000000000000000000000000000000000000000000000000101, pc = 0000000000000000000000000000000000000000000000000000000000000001
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v failed with 1 errors.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 1 failed with 1 error. 
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.ID_and_RF_TB
+# vsim -voptargs=+acc work.ID_and_RF_TB 
+# Loading work.ID_and_RF_TB
+# Loading work.ID_and_RF
+# Loading work.control_unit
+# Loading work.regfile
+# Loading work.signextend
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(131): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'reset_receive'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ID_and_RF.v(5).
+# 
+#         Region: /ID_and_RF_TB/IDRF
+run
+# 
+# Func = 0000, Extended = 0000000000000000000000000000000000000000000000000000010000001000,
+# read_data_1 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, read_data_2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, pc = 0000000000000000000000000000000000000000000000000000000000000001
+# 
+# Func= 0000, regWrite_out= 0, ALU_Src= 0, Mem_Write= 0, ALU_Op= 01
+# Mem_to_Reg= x, Mem_Read= 0, Branch= 1
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.ID_and_RF_TB
+# vsim -voptargs=+acc work.ID_and_RF_TB 
+# Loading work.ID_and_RF_TB
+# Loading work.ID_and_RF
+# Loading work.control_unit
+# Loading work.regfile
+# Loading work.signextend
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(131): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'reset_receive'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ID_and_RF.v(5).
+# 
+#         Region: /ID_and_RF_TB/IDRF
+run
+# 
+# Entered at neg edge
+# 
+# Func = 0000, Extended = 0000000000000000000000000000000000000000000000000000010000001000,
+# read_data_1 = 0000000000000000000000000000000000000000000000000000000000000011, read_data_2 = 0000000000000000000000000000000000000000000000000000000000000101, pc = 0000000000000000000000000000000000000000000000000000000000000001
+# 
+# Func= 0000, regWrite_out= 0, ALU_Src= 0, Mem_Write= 0, ALU_Op= 01
+# Mem_to_Reg= x, Mem_Read= 0, Branch= 1
+run
+# Error opening C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/[PCDPC] - Port size (1 or 1) does not match connection size 
+# Path name 'C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/[PCDPC] - Port size (1 or 1) does not match connection size ' doesn't exist.
+# A time value could not be extracted from the current line
+# Error opening C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/[PCDPC] - Port size (1 or 1) does not match connection size 
+# Path name 'C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/[PCDPC] - Port size (1 or 1) does not match connection size ' doesn't exist.
+# A time value could not be extracted from the current line
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.ID_and_RF_TB
+# vsim -voptargs=+acc work.ID_and_RF_TB 
+# Loading work.ID_and_RF_TB
+# Loading work.ID_and_RF
+# Loading work.control_unit
+# Loading work.regfile
+# Loading work.signextend
+# ** Warning: (vsim-3015) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(131): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'reset_receive'. The port definition is at: C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ID_and_RF.v(5).
+# 
+#         Region: /ID_and_RF_TB/IDRF
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.ID_and_RF_TB
+# vsim -voptargs=+acc work.ID_and_RF_TB 
+# Loading work.ID_and_RF_TB
+# Loading work.ID_and_RF
+# Loading work.control_unit
+# Loading work.regfile
+# Loading work.signextend
+run
+# 
+# Entered at neg edge
+# 
+# Func = 0000, Extended = 0000000000000000000000000000000000000000000000000000010000001000,
+# read_data_1 = 0000000000000000000000000000000000000000000000000000000000000011, read_data_2 = 0000000000000000000000000000000000000000000000000000000000000101, pc = 0000000000000000000000000000000000000000000000000000000000000001
+# 
+# Func= 0000, regWrite_out= 0, ALU_Src= 0, Mem_Write= 0, ALU_Op= 01
+# Mem_to_Reg= 0, Mem_Read= 0, Branch= 1
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v failed with 1 errors.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Write_Back.v failed with 1 errors.
+# 16 compiles, 2 failed with 2 errors. 
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Write_Back.v failed with 1 errors.
+# 16 compiles, 1 failed with 1 error. 
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Write_Back.v failed with 1 errors.
+# 16 compiles, 1 failed with 1 error. 
+vsim -voptargs=+acc work.ID_and_RF_TB
+# vsim -voptargs=+acc work.ID_and_RF_TB 
+# Loading work.ID_and_RF_TB
+# Loading work.ID_and_RF
+# Loading work.control_unit
+# Loading work.regfile
+# Loading work.signextend
+run
+# 
+# Entered at neg edge
+# 
+# Func = 0000, Extended = 0000000000000000000000000000000000000000000000000000010000001000,
+# read_data_1 = 0000000000000000000000000000000000000000000000000000000000000011, read_data_2 = 0000000000000000000000000000000000000000000000000000000000000101, pc = 0000000000000000000000000000000000000000000000000000000000000001
+# 
+# Func= 0000, regWrite_out= 0, ALU_Src= 0, Mem_Write= 0, ALU_Op= 01
+# Mem_to_Reg= 0, Mem_Read= 0, Branch= 1
+# 
+# SLT = 0
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Write_Back.v failed with 1 errors.
+# 16 compiles, 1 failed with 1 error. 
+vsim -voptargs=+acc work.ID_and_RF_TB
+# vsim -voptargs=+acc work.ID_and_RF_TB 
+# Loading work.ID_and_RF_TB
+# Loading work.ID_and_RF
+# Loading work.control_unit
+# Loading work.regfile
+# Loading work.signextend
+run
+# 
+# Entered at neg edge
+# 
+# Func = 0010, Extended = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,
+# read_data_1 = 0000000000000000000000000000000000000000000000000000000000000110, read_data_2 = 0000000000000000000000000000000000000000000000000000000000000111, pc = 0000000000000000000000000000000000000000000000000000000000000001
+# 
+# Func= 0010, regWrite_out= 1, ALU_Src= 0, Mem_Write= 0, ALU_Op= 10
+# Mem_to_Reg= 0, Mem_Read= 0, Branch= 0
+# 
+# SLT = x
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Write_Back.v failed with 1 errors.
+# 16 compiles, 1 failed with 1 error. 
+vsim -voptargs=+acc work.ID_and_RF_TB
+# vsim -voptargs=+acc work.ID_and_RF_TB 
+# Loading work.ID_and_RF_TB
+# Loading work.ID_and_RF
+# Loading work.control_unit
+# Loading work.regfile
+# Loading work.signextend
+run
+# 
+# Entered at neg edge
+# 
+# Func = 0010, Extended = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,
+# read_data_1 = 0000000000000000000000000000000000000000000000000000000000000110, read_data_2 = 0000000000000000000000000000000000000000000000000000000000000111, pc = 0000000000000000000000000000000000000000000000000000000000000001
+# 
+# Func= 0010, regWrite_out= 1, ALU_Src= 0, Mem_Write= 0, ALU_Op= 10
+# Mem_to_Reg= 0, Mem_Read= 0, Branch= 0
+# 
+# SLT = 0
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Write_Back.v failed with 1 errors.
+# 16 compiles, 1 failed with 1 error. 
+vsim -voptargs=+acc work.ID_and_RF_TB
+# vsim -voptargs=+acc work.ID_and_RF_TB 
+# Loading work.ID_and_RF_TB
+# Loading work.ID_and_RF
+# Loading work.control_unit
+# Loading work.regfile
+# Loading work.signextend
+run
+# 
+# Entered at neg edge
+# 
+# Func = 0010, Extended = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,
+# read_data_1 = 0000000000000000000000000000000000000000000000000000000000000110, read_data_2 = 0000000000000000000000000000000000000000000000000000000000000111, pc = 0000000000000000000000000000000000000000000000000000000000000001
+# 
+# Func= 0010, regWrite_out= 1, ALU_Src= 0, Mem_Write= 0, ALU_Op= 10
+# Mem_to_Reg= 0, Mem_Read= 0, Branch= 0
+# 
+# SLT = x
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Write_Back.v failed with 1 errors.
+# 16 compiles, 1 failed with 1 error. 
+vsim -voptargs=+acc work.ID_and_RF_TB
+# vsim -voptargs=+acc work.ID_and_RF_TB 
+# Loading work.ID_and_RF_TB
+# Loading work.ID_and_RF
+# Loading work.control_unit
+# Loading work.regfile
+# Loading work.signextend
+run
+# 
+# Entered .........................
+# 
+# Entered at neg edge
+# 
+# Func = 0010, Extended = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,
+# read_data_1 = 0000000000000000000000000000000000000000000000000000000000000110, read_data_2 = 0000000000000000000000000000000000000000000000000000000000000111, pc = 0000000000000000000000000000000000000000000000000000000000000001
+# 
+# Func= 0010, regWrite_out= 1, ALU_Src= 0, Mem_Write= 0, ALU_Op= 10
+# Mem_to_Reg= 0, Mem_Read= 0, Branch= 0
+# 
+# SLT = x
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Write_Back.v failed with 1 errors.
+# 16 compiles, 1 failed with 1 error. 
+vsim -voptargs=+acc work.ID_and_RF_TB
+# vsim -voptargs=+acc work.ID_and_RF_TB 
+# Loading work.ID_and_RF_TB
+# Loading work.ID_and_RF
+# Loading work.control_unit
+# Loading work.regfile
+# Loading work.signextend
+run
+# 
+# Entered .........................4
+# 
+# Entered at neg edge
+# 
+# Func = 0010, Extended = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,
+# read_data_1 = 0000000000000000000000000000000000000000000000000000000000000110, read_data_2 = 0000000000000000000000000000000000000000000000000000000000000111, pc = 0000000000000000000000000000000000000000000000000000000000000001
+# 
+# Func= 0010, regWrite_out= 1, ALU_Src= 0, Mem_Write= 0, ALU_Op= 10
+# Mem_to_Reg= 0, Mem_Read= 0, Branch= 0
+# 
+# SLT = x
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Write_Back.v failed with 1 errors.
+# 16 compiles, 1 failed with 1 error. 
+vsim -voptargs=+acc work.ID_and_RF_TB
+# vsim -voptargs=+acc work.ID_and_RF_TB 
+# Loading work.ID_and_RF_TB
+# Loading work.ID_and_RF
+# Loading work.control_unit
+# Loading work.regfile
+# Loading work.signextend
+run
+# 
+# Entered .........................4
+# 
+# Entered at neg edge
+# 
+# Func = 0010, Extended = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,
+# read_data_1 = 0000000000000000000000000000000000000000000000000000000000000110, read_data_2 = 0000000000000000000000000000000000000000000000000000000000000111, pc = 0000000000000000000000000000000000000000000000000000000000000001
+# 
+# Func= 0010, regWrite_out= 1, ALU_Src= 0, Mem_Write= 0, ALU_Op= 10
+# Mem_to_Reg= 0, Mem_Read= 0, Branch= 0
+# 
+# SLT = x
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Write_Back.v failed with 1 errors.
+# 16 compiles, 1 failed with 1 error. 
+vsim -voptargs=+acc work.ID_and_RF_TB
+# vsim -voptargs=+acc work.ID_and_RF_TB 
+# Loading work.ID_and_RF_TB
+# Loading work.ID_and_RF
+# Loading work.control_unit
+# Loading work.regfile
+# Loading work.signextend
+run
+# 
+# Entered .........................4, func 3 = 010
+# 
+# Entered at neg edge
+# 
+# Func = 0010, Extended = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,
+# read_data_1 = 0000000000000000000000000000000000000000000000000000000000000110, read_data_2 = 0000000000000000000000000000000000000000000000000000000000000111, pc = 0000000000000000000000000000000000000000000000000000000000000001
+# 
+# Func= 0010, regWrite_out= 1, ALU_Src= 0, Mem_Write= 0, ALU_Op= 10
+# Mem_to_Reg= 0, Mem_Read= 0, Branch= 0
+# 
+# SLT = x
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Write_Back.v failed with 1 errors.
+# 16 compiles, 1 failed with 1 error. 
+vsim -voptargs=+acc work.ID_and_RF_TB
+# vsim -voptargs=+acc work.ID_and_RF_TB 
+# Loading work.ID_and_RF_TB
+# Loading work.ID_and_RF
+# Loading work.control_unit
+# Loading work.regfile
+# Loading work.signextend
+run
+# 
+# Entered .........................4, func 3 = 010
+# 
+# Entered at neg edge
+# 
+# Func = 0010, Extended = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,
+# read_data_1 = 0000000000000000000000000000000000000000000000000000000000000110, read_data_2 = 0000000000000000000000000000000000000000000000000000000000000111, pc = 0000000000000000000000000000000000000000000000000000000000000001
+# 
+# Func= 0010, regWrite_out= 1, ALU_Src= 0, Mem_Write= 0, ALU_Op= 10
+# Mem_to_Reg= 0, Mem_Read= 0, Branch= 0
+# 
+# SLT = 1
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Write_Back.v failed with 1 errors.
+# 16 compiles, 1 failed with 1 error. 
+vsim -voptargs=+acc work.ID_and_RF_TB
+# vsim -voptargs=+acc work.ID_and_RF_TB 
+# Loading work.ID_and_RF_TB
+# Loading work.ID_and_RF
+# Loading work.control_unit
+# Loading work.regfile
+# Loading work.signextend
+run
+# 
+# Entered .........................4, func 3 = 000
+# 
+# Entered at neg edge
+# 
+# Func = 0000, Extended = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,
+# read_data_1 = 0000000000000000000000000000000000000000000000000000000000000110, read_data_2 = 0000000000000000000000000000000000000000000000000000000000000111, pc = 0000000000000000000000000000000000000000000000000000000000000001
+# 
+# Func= 0000, regWrite_out= 1, ALU_Src= 0, Mem_Write= 0, ALU_Op= 10
+# Mem_to_Reg= 0, Mem_Read= 0, Branch= 0
+# 
+# SLT = 0
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Write_Back.v failed with 1 errors.
+# 16 compiles, 1 failed with 1 error. 
+vsim -voptargs=+acc work.ID_and_RF_TB
+# vsim -voptargs=+acc work.ID_and_RF_TB 
+# Loading work.ID_and_RF_TB
+# Loading work.ID_and_RF
+# Loading work.control_unit
+# Loading work.regfile
+# Loading work.signextend
+run
+# 
+# Entered .........................1
+# 
+# Entered at neg edge
+# 
+# Func = 1011, Extended = 1111111111111111111111111111111111111111111111111111110000000010,
+# read_data_1 = 0000000000000000000000000000000000000000000000000000000000001100, read_data_2 = 0000000000000000000000000000000000000000000000000000000000000010, pc = 0000000000000000000000000000000000000000000000000000000000000001
+# 
+# Func= 1011, regWrite_out= 1, ALU_Src= 1, Mem_Write= 0, ALU_Op= 00
+# Mem_to_Reg= 1, Mem_Read= 1, Branch= 0
+# 
+# SLT = 0
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Write_Back.v failed with 1 errors.
+# 16 compiles, 1 failed with 1 error. 
+vsim -voptargs=+acc work.ID_and_RF_TB
+# vsim -voptargs=+acc work.ID_and_RF_TB 
+# Loading work.ID_and_RF_TB
+# Loading work.ID_and_RF
+# Loading work.control_unit
+# Loading work.regfile
+# Loading work.signextend
+run
+# 
+# Entered .........................3
+# 
+# Entered at neg edge
+# 
+# Func = 0000, Extended = 0000000000000000000000000000000000000000000000000000010000001000,
+# read_data_1 = 0000000000000000000000000000000000000000000000000000000000000011, read_data_2 = 0000000000000000000000000000000000000000000000000000000000000101, pc = 0000000000000000000000000000000000000000000000000000000000000001
+# 
+# Func= 0000, regWrite_out= 0, ALU_Src= 0, Mem_Write= 0, ALU_Op= 01
+# Mem_to_Reg= 0, Mem_Read= 0, Branch= 1
+# 
+# SLT = 0
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Write_Back.v failed with 1 errors.
+# 16 compiles, 1 failed with 1 error. 
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Write_Back.v failed with 1 errors.
+# 16 compiles, 1 failed with 1 error. 
+# Compile of Write_Back.v was successful.
+# Compile of Write_Back.v failed with 1 errors.
+# Compile of Write_Back.v was successful.
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Write_Back.v was successful.
+# 16 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.WB_TB
+# vsim -voptargs=+acc work.WB_TB 
+# Loading work.WB_TB
+# Loading work.Write_Back
+# ** Error: (vsim-3043) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(26): Unresolved reference to 'writeData'.
+# 
+#         Region: /WB_TB
+# Error loading design
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Write_Back.v was successful.
+# 16 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.WB_TB
+# vsim -voptargs=+acc work.WB_TB 
+# Loading work.WB_TB
+# Loading work.Write_Back
+run
+# 
+# Write Data = 0000000000000000000000000000000000000000000000000000000000000001, reg write= 1
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Write_Back.v was successful.
+# 16 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.WB_TB
+# vsim -voptargs=+acc work.WB_TB 
+# Loading work.WB_TB
+# Loading work.Write_Back
+run
+# 
+# Write Data = 0000000000000000000000000000000000000000000000000000000000000000, reg write= x
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Write_Back.v was successful.
+# 16 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.ID_and_RF_TB
+# vsim -voptargs=+acc work.ID_and_RF_TB 
+# Loading work.ID_and_RF_TB
+# Loading work.ID_and_RF
+# Loading work.control_unit
+# Loading work.regfile
+# Loading work.signextend
+run
+# 
+# Entered at neg edge
+# 
+# Func = 0000, Extended = 0000000000000000000000000000000000000000000000000000010000001000,
+# read_data_1 = 0000000000000000000000000000000000000000000000000000000000000011, read_data_2 = 0000000000000000000000000000000000000000000000000000000000000101, pc = 0000000000000000000000000000000000000000000000000000000000000001
+# 
+# Func= 0000, regWrite_out= 0, ALU_Src= 0, Mem_Write= 0, ALU_Op= 01
+# Mem_to_Reg= 0, Mem_Read= 0, Branch= 1
+vsim -voptargs=+acc work.exec_tb
+# vsim -voptargs=+acc work.exec_tb 
+# Loading work.exec_tb
+# Loading work.exec
+# Loading work.ALU_64bit
+# Loading work.ALU_1b_Ordinary
+# Loading work.mux2to1
+# Loading work.mux4to1
+# Loading work.fullAdder
+# Loading work.ALU_1bit_MSB
+# Loading work.ALU_CU
+run
+# 
+# read data 1 received= 0000000000000000000000000000000000000000000000000000000000000011, read data 2 received= 0000000000000000000000000000000000000000000000000000000000000101
+# 
+# Execution outputs :- pcbranch= 0000000000000000000000000000000000000000000000000000000000110000, Result=0000000000000000000000000000000000000000000000000000000000001111,
+#  Zero= 0, read data 2 = 0000000000000000000000000000000000000000000000000000000000000101
+vsim -voptargs=+acc work.Memory_TB
+# vsim -voptargs=+acc work.Memory_TB 
+# Loading work.Memory_TB
+# Loading work.Memory
+# Loading work.Data_Memory
+run
+# 
+# read data= 0000000000000000000000000000000000000000000000000000000000100000, pc src = 0
+# pcbranch= 0000000000000000000000000000000000000000000000000000000000001100, memtoreg = 0
+# result = 0000000000000000000000000000000000000000000000000000000000000101
+vsim -voptargs=+acc work.WB_TB
+# vsim -voptargs=+acc work.WB_TB 
+# Loading work.WB_TB
+# Loading work.Write_Back
+# ** Warning: (vsim-3017) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(21): [TFMPC] - Too few port connections. Expected 8, found 7.
+# 
+#         Region: /WB_TB/WB
+# ** Warning: (vsim-3722) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(21): [TFMPC] - Missing connection for port 'SLT'.
+# 
+run
+# 
+# Write Data = 0000000000000000000000000000000000000000000000000000000000000000, reg write= 0
+# Compile of Instruction_Fetch.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_64bit.v was successful.
+# Compile of ALU_CU.v was successful.
+# Compile of testbenches.v was successful.
+# Compile of Utility_Modules.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+# Compile of ID_and_RF.v was successful.
+# Compile of Execution.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Instruction_Memory.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Write_Back.v was successful.
+# 16 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.WB_TB
+# vsim -voptargs=+acc work.WB_TB 
+# Loading work.WB_TB
+# Loading work.Write_Back
+# ** Warning: (vsim-3017) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(21): [TFMPC] - Too few port connections. Expected 8, found 7.
+# 
+#         Region: /WB_TB/WB
+# ** Warning: (vsim-3722) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(21): [TFMPC] - Missing connection for port 'SLT'.
+# 
+run
+# 
+# Write Data = 0000000000000000000000000000000000000000000000000000000000000001, reg write= 0
+# Compile of Stage_Testbenches.v was successful with warnings.
+vsim -voptargs=+acc work.WB_TB
+# vsim -voptargs=+acc work.WB_TB 
+# Loading work.WB_TB
+# Loading work.Write_Back
+# ** Warning: (vsim-3017) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(21): [TFMPC] - Too few port connections. Expected 8, found 7.
+# 
+#         Region: /WB_TB/WB
+# ** Warning: (vsim-3722) C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Stage_Testbenches.v(21): [TFMPC] - Missing connection for port 'SLT'.
+# 
+run
+# 
+# Write Data = 0000000000000000000000000000000000000000000000000000000000000010, reg write= 0
+# Compile of Write_Back.v was successful.
+# Compile of Stage_Testbenches.v was successful with warnings.
+vsim -voptargs=+acc work.WB_TB
+# vsim -voptargs=+acc work.WB_TB 
+# Loading work.WB_TB
+# Loading work.Write_Back
+run
+# 
+# Write Data = 0000000000000000000000000000000000000000000000000000000000000010, reg write= 1

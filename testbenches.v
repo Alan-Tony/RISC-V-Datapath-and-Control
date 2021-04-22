@@ -2,16 +2,38 @@
 `include "ALU_64bit.v"
 `include "Sign_Extension.v"
 `include "Register_File.v"
+`include "Data_Memory.v"
+
+//Testbench for Data Memory
+module Data_Memory_TB();
+
+  reg clk = 0, MemRead = 1, MemWrite = 0;
+  reg [63:0] address = 64'd2, WriteData = 64'b0;
+  wire [63:0] ReadData;
+
+  Data_Memory D0(.clk (clk), .MemRead (MemRead), .MemWrite (MemWrite), .address (address), .WriteData (WriteData), .ReadData (ReadData));
+
+  initial begin
+    
+    clk = ~clk;
+
+    #5 $display("\nAddress= %b, Read data = %b", address, ReadData);
+
+  end
+
+endmodule
 
 //Testbench for Register File
 module Register_File_TB();
 
   reg clk = 1'b0;
   wire [63:0] readData1, readData2;
+  reg reset = 1;
 
 
   regfile rf0(
   .clk (clk),
+  .reset (reset),
   .regWrite (1'b0), 
   .readReg1 (5'b0), 
   .readReg2 (5'b1), 
@@ -23,6 +45,7 @@ module Register_File_TB();
   initial begin
     
     #5 clk = ~clk;
+    reset = 0;
     #5 clk = ~clk;
     #5 $display("\nData 1= %b, Data 2= %b", readData1, readData2);
 
