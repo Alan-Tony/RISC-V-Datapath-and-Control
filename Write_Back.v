@@ -11,7 +11,7 @@ input [63:0] Result, ReadData;
 output reg [63:0] WriteData;
 
 input Mem_to_Reg, regWrite_receive;
-output reg regWrite;
+output reg regWrite = 0;
 
 
 always @(posedge clk)

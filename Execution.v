@@ -2,35 +2,38 @@
 `include "ALU_CU.v"
 
 module exec(clk,  
-            ALU_Src, Mem_Write_recieve, ALU_Op_recieve, Mem_to_Reg_recieve, Mem_Read_recieve, Branch_recieve,
-              Mem_to_Reg, Mem_Write, Mem_Read, Branch,
-              pc_recieve, extended_recieve, pcbranch,
-              read_data_1_recieve, read_data_2_recieve, read_data_2, 
-              Func_recieve,
-              Result, Zero );
+            regWrite_receive, ALU_Src, Mem_Write_receive, ALU_Op_receive, Mem_to_Reg_receive, Mem_Read_receive, Branch_receive,
+            regWrite, Mem_to_Reg, Mem_Write, Mem_Read, Branch,
+            pc_receive, extended_receive, pcbranch,
+            read_data_1_receive, read_data_2_receive, read_data_2, 
+            Func_receive,
+            Result, Zero );
                  
 
     input wire clk;
     
     //Control Unit signals
+    input wire regWrite_receive;
     input wire ALU_Src;
-    input wire Mem_Write_recieve;
-    input wire [1:0] ALU_Op_recieve;
-    input wire Mem_to_Reg_recieve;
-    input wire Mem_Read_recieve;
-    input wire Branch_recieve;
+    input wire Mem_Write_receive;
+    input wire [1:0] ALU_Op_receive;
+    input wire Mem_to_Reg_receive;
+    input wire Mem_Read_receive;
+    input wire Branch_receive;
 
     
     //Updated Control Unit signals
+    output reg regWrite;
     reg [1:0] ALU_Op = 2'b0;
     output reg Mem_Write = 0;
     output reg Mem_to_Reg = 0;
     output reg Mem_Read = 0;
     output reg Branch = 0;
 
+
     //ALU 1 inputs
-    input [63:0] pc_recieve;    
-    input [63:0] extended_recieve;
+    input [63:0] pc_receive;    
+    input [63:0] extended_receive;
     //Updated ALU 1 inputs
     reg [63:0] pc;
     reg[63:0] extended;
@@ -39,8 +42,8 @@ module exec(clk,
 
 
     //ALU 2 inputs
-    input [63:0] read_data_1_recieve, read_data_2_recieve;
-    input [3:0] Func_recieve;
+    input [63:0] read_data_1_receive, read_data_2_receive;
+    input [3:0] Func_receive;
 
     // Updated ALU 2 inputs
     reg [63:0] read_data_1;
@@ -64,23 +67,24 @@ module exec(clk,
     begin
       
         case(ALU_Src)
-            1'b0: read_data_2_in_ALU2 = read_data_2_recieve;
-            1'b1: read_data_2_in_ALU2 = extended_recieve;
+            1'b0: read_data_2_in_ALU2 = read_data_2_receive;
+            1'b1: read_data_2_in_ALU2 = extended_receive;
         endcase
       
-        Mem_Write = Mem_Write_recieve;
-        ALU_Op = ALU_Op_recieve;
-        Mem_to_Reg = Mem_to_Reg_recieve;
-        Mem_Read = Mem_Read_recieve;
-        Branch = Branch_recieve;
+        regWrite =  regWrite_receive;
+        Mem_Write = Mem_Write_receive;
+        ALU_Op = ALU_Op_receive;
+        Mem_to_Reg = Mem_to_Reg_receive;
+        Mem_Read = Mem_Read_receive;
+        Branch = Branch_receive;
 
-        pc = pc_recieve;
-        extended = extended_recieve;
+        pc = pc_receive;
+        extended = extended_receive;
 
-        read_data_1 = read_data_1_recieve;
-        read_data_2 = read_data_2_recieve;
-        $display("\nread data 1 received= %b, read data 2 received= %b", read_data_1_recieve, read_data_2_recieve);
-        Func = Func_recieve;
+        read_data_1 = read_data_1_receive;
+        read_data_2 = read_data_2_receive;
+        //$display("\nread data 1 received= %b, read data 2 received= %b", read_data_1_receive, read_data_2_receive);
+        Func = Func_receive;
         
     end 
 

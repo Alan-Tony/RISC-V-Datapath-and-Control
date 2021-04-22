@@ -61,6 +61,13 @@ module control_unit(opcode, ALUSrc, MemtoReg, Reg_write, mem_read, mem_write, br
 
         default:begin
         $display("\nWrong input hence values will be dont cares");
+        ALUSrc=1'bx;
+        MemtoReg=1'bx;
+        Reg_write=1'bx;
+        mem_read=1'bx;
+        mem_write=1'bx;
+        branch=1'bx;
+        ALUOp=2'bxx;
         end
     endcase
 

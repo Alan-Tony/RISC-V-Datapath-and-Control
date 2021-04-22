@@ -120,6 +120,47 @@ Top level modules:
 	mux4to1
 	fullAdder
 
+} {} {}} {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Pipeline.v} {2 {vlog -work work {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/Pipeline.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module mux2to1
+-- Compiling module mux4to1
+-- Compiling module fullAdder
+-- Compiling module ALU_1b_Ordinary
+-- Compiling module ALU_1bit_MSB
+-- Compiling module ALU_64bit
+-- Compiling module Instruction_Memory
+-- Compiling module Instruction_Fetch
+-- Compiling module signextend
+-- Compiling module regfile
+-- Compiling module control_unit
+-- Compiling module ID_and_RF
+** Warning: Utility_Modules.v(3): (vlog-2275) 'mux2to1' already exists and will be overwritten.
+
+-- Compiling module mux2to1
+** Warning: Utility_Modules.v(25): (vlog-2275) 'mux4to1' already exists and will be overwritten.
+
+-- Compiling module mux4to1
+** Warning: Utility_Modules.v(44): (vlog-2275) 'fullAdder' already exists and will be overwritten.
+
+-- Compiling module fullAdder
+** Warning: ALU_1bit.v(4): (vlog-2275) 'ALU_1b_Ordinary' already exists and will be overwritten.
+
+-- Compiling module ALU_1b_Ordinary
+** Warning: ALU_1bit.v(55): (vlog-2275) 'ALU_1bit_MSB' already exists and will be overwritten.
+
+-- Compiling module ALU_1bit_MSB
+** Warning: ALU_64bit.v(3): (vlog-2275) 'ALU_64bit' already exists and will be overwritten.
+
+-- Compiling module ALU_64bit
+-- Compiling module ALU_CU
+-- Compiling module exec
+-- Compiling module Data_Memory
+-- Compiling module Memory
+-- Compiling module Pipeline
+
+Top level modules:
+	Pipeline
+
 } {} {}} {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ID_and_RF.v} {1 {vlog -work work {C:/Alan Part 2/College Work/Year 2 Part 2/Semester 4/CS250 - Computer Organization & Architecture/Assignments/A2-5/RISC-V-Datapath-and-Control/ID_and_RF.v}
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
 -- Compiling module signextend

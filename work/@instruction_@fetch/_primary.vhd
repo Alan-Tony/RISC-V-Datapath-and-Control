@@ -6,6 +6,7 @@ entity Instruction_Fetch is
         reset           : in     vl_logic;
         pc_branch       : in     vl_logic_vector(63 downto 0);
         \select\        : in     vl_logic;
-        instruction     : out    vl_logic_vector(31 downto 0)
+        instruction     : out    vl_logic_vector(31 downto 0);
+        pc_current      : out    vl_logic_vector(63 downto 0)
     );
 end Instruction_Fetch;

@@ -28,10 +28,12 @@ module Register_File_TB();
 
   reg clk = 1'b0;
   wire [63:0] readData1, readData2;
+  reg reset = 1;
 
 
   regfile rf0(
   .clk (clk),
+  .reset (reset),
   .regWrite (1'b0), 
   .readReg1 (5'b0), 
   .readReg2 (5'b1), 
@@ -43,6 +45,7 @@ module Register_File_TB();
   initial begin
     
     #5 clk = ~clk;
+    reset = 0;
     #5 clk = ~clk;
     #5 $display("\nData 1= %b, Data 2= %b", readData1, readData2);
 

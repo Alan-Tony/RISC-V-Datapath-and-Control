@@ -36,11 +36,11 @@ module exec_tb();
   //Control Unit Signals
   reg clk = 0;
   reg ALU_Src=1'b1; //Use immediate value for addition
-  reg Mem_Write_recieve=1'b0;
-  reg [1:0] ALU_Op_recieve = 2'b10;   //Add
-  reg Mem_to_Reg_recieve=1'b0;
-  reg Mem_Read_recieve=1'b1;
-  reg Branch_recieve=1'b0;
+  reg Mem_Write_receive=1'b0;
+  reg [1:0] ALU_Op_receive = 2'b10;   //Add
+  reg Mem_to_Reg_receive=1'b0;
+  reg Mem_Read_receive=1'b1;
+  reg Branch_receive=1'b0;
   
   //Passed on CU signals
   wire Mem_Write;
@@ -49,13 +49,13 @@ module exec_tb();
   wire Branch;
   
   //1st ALU inputs
-  reg [63:0] pc_recieve = 64'b0;
-  reg [63:0] extended_recieve = 64'd12;
+  reg [63:0] pc_receive = 64'b0;
+  reg [63:0] extended_receive = 64'd12;
   
   //alu 2 ip
-  reg [63:0] read_data_1_recieve = 64'd3;
-  reg [63:0] read_data_2_recieve = 63'd5;
-  reg [3:0] Func_recieve = 4'b0000;
+  reg [63:0] read_data_1_receive = 64'd3;
+  reg [63:0] read_data_2_receive = 63'd5;
+  reg [3:0] Func_receive = 4'b0000;
   
   //alu 2 op
   wire [63:0] pcbranch;
@@ -67,13 +67,13 @@ module exec_tb();
   wire [63:0] read_data_1;
   
   exec exec0(.clk (clk),  
-            .ALU_Src (ALU_Src), .Mem_Write_recieve (Mem_Write_recieve), .ALU_Op_recieve (ALU_Op_recieve),
-            .Mem_to_Reg_recieve (Mem_to_Reg_recieve), .Mem_Read_recieve (Mem_Read_recieve), .Branch_recieve (Branch_recieve),
+            .ALU_Src (ALU_Src), .Mem_Write_receive (Mem_Write_receive), .ALU_Op_receive (ALU_Op_receive),
+            .Mem_to_Reg_receive (Mem_to_Reg_receive), .Mem_Read_receive (Mem_Read_receive), .Branch_receive (Branch_receive),
 
             .Mem_to_Reg (Mem_to_Reg), .Mem_Write (Mem_Write), .Mem_Read (Mem_Read), .Branch (Branch),
-            .pc_recieve (pc_recieve), .extended_recieve (extended_recieve), .pcbranch (pcbranch),
-            .read_data_1_recieve (read_data_1_recieve), .read_data_2_recieve (read_data_2_recieve), .read_data_2 (read_data_2), 
-            .Func_recieve (Func_recieve),
+            .pc_receive (pc_receive), .extended_receive (extended_receive), .pcbranch (pcbranch),
+            .read_data_1_receive (read_data_1_receive), .read_data_2_receive (read_data_2_receive), .read_data_2 (read_data_2), 
+            .Func_receive (Func_receive),
             .Result (Result), .Zero (Zero) );
   
   initial begin
@@ -93,22 +93,22 @@ module Memory_TB();
   reg [63:0] writeData = 64'bx;
   wire [63:0] ReadData;
 
-  reg Zero_recieve = 1'b1, Branch_recieve = 1'b0;
+  reg Zero_receive = 1'b1, Branch_receive = 1'b0;
   wire PC_SRC;
   reg [63:0] pcbranch_receive = 64'd12;
   wire [63:0] pcbranch;
 
-  reg [63:0] result_recieve = 64'd5;
+  reg [63:0] result_receive = 64'd5;
   wire [63:0] result;
 
-  reg Mem_to_Reg_recieve = 0;
+  reg Mem_to_Reg_receive = 0;
   wire Mem_to_Reg;
 
   Memory M0( .clk (clk), 
           .Mem_Read (Mem_Read), .Mem_Write (Mem_Write), .writeData (writeData), .ReadData (ReadData),
-          .Zero_recieve (Zero_recieve), .Branch_recieve (Branch_recieve),  .PC_SRC (PC_SRC), .pcbranch_receive (pcbranch_receive), .pcbranch (pcbranch),
-          .result_recieve (result_recieve), .result (result),
-          .Mem_to_Reg_recieve (Mem_to_Reg_recieve), .Mem_to_Reg (Mem_to_Reg) );
+          .Zero_receive (Zero_receive), .Branch_receive (Branch_receive),  .PC_SRC (PC_SRC), .pcbranch_receive (pcbranch_receive), .pcbranch (pcbranch),
+          .result_receive (result_receive), .result (result),
+          .Mem_to_Reg_receive (Mem_to_Reg_receive), .Mem_to_Reg (Mem_to_Reg) );
 
 
   initial begin
@@ -135,19 +135,19 @@ module ID_and_RF_TB();
 
   ID_and_RF IDRF(.clk (clk), 
   .reset_receive (1'b0),
-  .pc_recieve (64'b1), 
+  .pc_receive (64'b1), 
   .regWrite_receive (regWrite_receive), 
   .regWrite_out (regWrite_out),
   
   /*
-  .instruction_recieve (32'b00000000011100110000001010110011), //add
-  .instruction_recieve (32'b11000000001001100011001010000011), //ld
+  .instruction_receive (32'b00000000011100110000001010110011), //add
+  .instruction_receive (32'b11000000001001100011001010000011), //ld
   */
-  .instruction_recieve (32'b00000000010100011000100011100011), //beq  
+  .instruction_receive (32'b00000000010100011000100011100011), //beq  
   /*
-  .instruction_recieve (32'b00000000011100110010001010110011), //slt
+  .instruction_receive (32'b00000000011100110010001010110011), //slt
   */
-  .writeData_recieve (64'bx),
+  .writeData_receive (64'bx),
   .pc (pc),
   .extended (extended),
   .Func (Func), 
@@ -178,6 +178,7 @@ module IF_Testbench();
   reg clk = 1'b0;
   reg reset = 1'b0;
   wire [31:0] instruction;
+  wire [63:0] pc_current;
   
   reg [64:0] branches[0:7];
   reg [63:0] branch;
@@ -185,7 +186,7 @@ module IF_Testbench();
   reg [64:0] concat;
   
   Instruction_Fetch IF(
-  .clk (clk), .reset (reset), .pc_branch (branch), .select (select), .instruction (instruction)
+  .clk (clk), .reset (reset), .pc_branch (branch), .select (select), .instruction (instruction), .pc_current (pc_current)
   );
 
   integer i;
@@ -203,7 +204,7 @@ module IF_Testbench();
     if(i%2)
     begin
 
-      #1 $display("\nCycle number= %d, Branch address= %b, select= %b, instruction= %b, clk= %b", i>>1, branch, select, instruction, clk);
+      #1 $display("\nCycle number= %d, Branch address= %b, select= %b, instruction= %b, pc_current= %b, clk= %b", i>>1, branch, select, instruction, pc_current, clk);
     end
     else
     begin

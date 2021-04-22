@@ -1,7 +1,7 @@
 `include "ALU_64bit.v"
 `include "Instruction_Memory.v"
 
-module Instruction_Fetch(clk, reset, pc_branch, select, instruction);
+module Instruction_Fetch(clk, reset, pc_branch, select, instruction, pc_current);
 
     input clk;                //Clock for all stages in the pipeline
     input reset;               //To reset the program counter to first instruction
@@ -10,7 +10,8 @@ module Instruction_Fetch(clk, reset, pc_branch, select, instruction);
     
     output [31:0] instruction;  //Instruction fetched from memory
 
-    reg [63:0] pc_current = 64'b0, pc_next = 64'b0;
+    reg [63:0] pc_next = 64'b0;
+    output reg [63:0] pc_current = 64'b0;
     wire [63:0] pc_4;
 
     ALU_64bit A0(.A (pc_next), .B (64'd4), .Operation (4'b0010), .Result (pc_4), .Overflow (), .Zero ());
