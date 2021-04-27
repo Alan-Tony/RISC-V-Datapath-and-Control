@@ -11,7 +11,7 @@ module Data_Memory_TB();
   reg [63:0] address = 64'd2, WriteData = 64'b0;
   wire [63:0] ReadData;
 
-  Data_Memory D0(.clk (clk), .MemRead (MemRead), .MemWrite (MemWrite), .address (address), .WriteData (WriteData), .ReadData (ReadData));
+  Data_Memory D0(.clk (clk), .MemRead (MemRead), .MemWrite (MemWrite), .Address (address), .WriteData (WriteData), .ReadData (ReadData));
 
   initial begin
     

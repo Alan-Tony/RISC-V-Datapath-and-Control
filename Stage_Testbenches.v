@@ -36,6 +36,7 @@ module exec_tb();
   //Control Unit Signals
   reg clk = 0;
   reg ALU_Src=1'b1; //Use immediate value for addition
+  reg regWrite_receive = 1;
   reg Mem_Write_receive=1'b0;
   reg [1:0] ALU_Op_receive = 2'b10;   //Add
   reg Mem_to_Reg_receive=1'b0;
@@ -43,6 +44,7 @@ module exec_tb();
   reg Branch_receive=1'b0;
   
   //Passed on CU signals
+  wire regWrite;
   wire Mem_Write;
   wire Mem_to_Reg;
   wire Mem_Read;
@@ -67,8 +69,8 @@ module exec_tb();
   wire [63:0] read_data_1;
   
   exec exec0(.clk (clk),  
-            .ALU_Src (ALU_Src), .Mem_Write_receive (Mem_Write_receive), .ALU_Op_receive (ALU_Op_receive),
-            .Mem_to_Reg_receive (Mem_to_Reg_receive), .Mem_Read_receive (Mem_Read_receive), .Branch_receive (Branch_receive),
+            .regWrite_receive (regWrite_receive), .ALU_Src (ALU_Src), .Mem_Write_receive (Mem_Write_receive), .ALU_Op_receive (ALU_Op_receive),
+            .regWrite (regWrite), .Mem_to_Reg_receive (Mem_to_Reg_receive), .Mem_Read_receive (Mem_Read_receive), .Branch_receive (Branch_receive),
 
             .Mem_to_Reg (Mem_to_Reg), .Mem_Write (Mem_Write), .Mem_Read (Mem_Read), .Branch (Branch),
             .pc_receive (pc_receive), .extended_receive (extended_receive), .pcbranch (pcbranch),
@@ -78,7 +80,7 @@ module exec_tb();
   
   initial begin
     #1 clk = ~clk;
-    #5 $display("\nExecution outputs :- pcbranch= %b, Result=%b,\n Zero= %b, read data 2 = %b",pcbranch, Result, Zero, read_data_2);
+    #5 $display("\n(Addition Operation)\nExecution outputs :- pcbranch= %b, Result=%b,\n Zero= %b, read data 2 = %b",pcbranch, Result, Zero, read_data_2);
   end
 
 endmodule
@@ -101,14 +103,16 @@ module Memory_TB();
   reg [63:0] result_receive = 64'd5;
   wire [63:0] result;
 
+  reg regWrite_receive = 1;
   reg Mem_to_Reg_receive = 0;
+  wire regWrite;
   wire Mem_to_Reg;
 
   Memory M0( .clk (clk), 
           .Mem_Read (Mem_Read), .Mem_Write (Mem_Write), .writeData (writeData), .ReadData (ReadData),
           .Zero_receive (Zero_receive), .Branch_receive (Branch_receive),  .PC_SRC (PC_SRC), .pcbranch_receive (pcbranch_receive), .pcbranch (pcbranch),
           .result_receive (result_receive), .result (result),
-          .Mem_to_Reg_receive (Mem_to_Reg_receive), .Mem_to_Reg (Mem_to_Reg) );
+          .regWrite_receive (regWrite_receive), .Mem_to_Reg_receive (Mem_to_Reg_receive), .regWrite (regWrite), .Mem_to_Reg (Mem_to_Reg) );
 
 
   initial begin
